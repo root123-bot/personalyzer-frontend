@@ -304,7 +304,7 @@ class Login extends Component {
                     }
                   />
                   <br />
-                  <p className={styles.forg}>Forgot password?</p>
+                  <p className={styles.forg} onClick={() => Router.push('/reset')}>Forgot password?</p>
                   <div className={styles.error} ref={this.errorContainer}>
                     <Message error size="mini">
                       <Message.Header>
