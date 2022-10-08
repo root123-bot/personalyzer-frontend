@@ -1,0 +1,411 @@
+.conte {
+    margin-top: 8%;
+}
+
+.conte1 {
+    margin-top: 4%;
+}
+
+.conte2 {
+    margin-top: 4%;
+}
+
+.showRoom {
+    position: absolute;
+    top: 12%;
+    display: none;
+    width: 58%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.largeImage {
+    margin-top: 2%;
+    width: 100%;
+    height: 420px;
+    border: 1px solid grey;
+}
+
+.imag {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallImage {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.smaI {
+    border: 1px solid rgb(178, 178, 178);
+    margin: 0.5%;
+}
+
+.smaI:hover {
+    cursor: pointer;
+}
+
+.dodo {
+    margin-top: 5%;
+}
+
+.sp {
+    font-weight: bolder;
+}
+
+.idadi {
+    color: rgb(153, 153, 153);
+}
+
+.amountWrapper {
+    width: 40%;
+    border: 1px solid rgb(159, 159, 159);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actualAmount {
+    padding-top: 2px;
+}
+
+.plus {
+    padding-top: 2px;
+    padding-right: 9px;
+    padding-left: 9px;
+    border-right: 1px solid grey;
+}
+
+.minus {
+    padding-top: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid grey;
+}
+
+.plus:hover, .minus:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+.customizations {
+    margin-top: 2%;
+    border-radius: 5px 5px;
+    background-color: rgba(226, 226, 226, 0.849);
+}
+
+.top {
+    margin-left: 2%;
+    margin-bottom: 0px;
+}
+
+.abv {
+    border: 1px solid grey;
+}
+
+.h {
+    padding-top: 3%;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.mzeeSmall {
+    font-size: 15px;
+}
+
+.hr1 {
+    padding-top: 0%;
+    margin-top: 0%;
+    border: 1px solid rgb(132, 132, 132); 
+    margin-right: 15%;
+}
+
+.sec {
+    margin-left: 2%;
+}
+
+.pName {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(51, 58, 49);
+    margin-top: 15px;
+}
+
+.pValue {
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-top: -9px;
+    padding-top: 0px;
+    color: rgb(53, 40, 25);
+    border: 1px solid rgb(190, 255, 149);
+    background: rgb(111, 220, 235);
+    padding: 4px;
+    padding-bottom: 0px;
+}
+
+.pullUp {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.pullUp {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.pullUp2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.bichwa {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sub {
+    font-size: 13px;
+    font-weight: bolder;
+    color: grey;
+    margin-bottom: 0px;
+    padding-bottom: 0px
+}
+
+.tarea {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 1px rgb(121, 121, 121) solid;
+  
+}
+
+.down {
+    margin-top: 5%;
+}
+
+.footerHr {
+    border: 1px grey solid;
+}
+
+.footerSec {
+    margin-top: 10%;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.err {
+    margin-bottom: 1%;
+    display: none;
+} 
+
+.err1 {
+    margin-bottom: 1%;
+    display: none;
+} 
+
+
+.model {
+    position: absolute;
+    top: 15%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+}
+
+.closeBtnx {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 94, 94);
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.lebo {
+    font-weight: bold;
+    white-space: normal;
+    overflow-x: hidden;
+    color: rgb(158, 103, 30);
+}
+
+
+@media screen, (min-width: 1200px) {
+    .conte {
+        margin-top: 6%;
+    }
+
+    .hek {
+        font-weight: bold;
+        color: grey;
+        font-size: 160%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .ab {
+        margin-top: 0.1%;
+        padding-top: 0%;
+    }
+
+    .showRoom {
+        position: absolute;
+        top: 8%;
+        left: 5%;
+        display: none;
+        width: 90%;
+        
+    }
+
+    .model {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    .conte {
+        margin-top: 9%;
+    }
+
+    .hek {
+        font-weight: bold;
+        color: grey;
+        font-size: 160%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .ab {
+        margin-top: 0.1%;
+        padding-top: 0%;
+    }
+
+
+    .showRoom {
+        position: absolute;
+        top: 8%;
+        left: 5%;
+        display: none;
+        width: 90%;
+    }
+
+    .model {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width: 899px) {
+    .conte {
+        margin-top: 12%;
+    }
+
+    .hek {
+        font-weight: bold;
+        color: grey;
+        font-size: 150%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .ab {
+        margin-top: 0.1%;
+        padding-top: 0%;
+    }
+}
+
+
+
+@media screen and (min-width: 401px) and (max-width: 576px) {
+    .conte {
+        margin-top: 15%;
+    }
+
+    .hek {
+        font-weight: bold;
+        color: grey;
+        font-size: 135%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .ab {
+        margin-top: 0.1%;
+        padding-top: 0%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+
+    .conte {
+        margin-top: 20%;
+    }
+
+    .hek {
+        font-weight: bold;
+        color: grey;
+        font-size: 129%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .ab {
+        margin-top: 0.1%;
+        padding-top: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

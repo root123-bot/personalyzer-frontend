@@ -1,0 +1,583 @@
+
+
+@media screen and (min-width: 577px) {
+    .head {
+        padding-top: 2%;
+        font-weight: bold;
+        color: white;
+        background: rgb(224, 64, 64);
+        text-align: center;
+        margin-bottom: 0%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        font-size: 110%;
+    }
+
+    .hl {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .htwo {
+        font-size: 110%;
+        padding-left: 3%;
+       
+        color: grey;
+        font-weight: bold;
+    }
+
+    .para {
+        margin-left: 4%;
+        color: grey;
+        
+    }
+
+    .meth1 {
+        margin-top: 2%;
+        margin-right: 4%;
+    }
+
+    .meth2 {
+        margin-top: 7%;
+        margin-right: 4%;
+    }
+
+    .payMe {
+        padding-top: 4%;
+    }
+
+    .pay {
+        color: grey;
+        font-weight: bold;
+        font-size: 130%;
+        text-align: center;
+        margin-bottom: 0%;
+        padding-bottom: 1%;
+    }
+
+    .reduceMe {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .aqr {
+        text-align: center;
+    }
+
+    .qr {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .lnamba {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .aname1 {
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .moreInfo {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+
+    .help {
+        background: rgb(235, 235, 235);
+        padding-top: 2%;
+    }
+
+    .hin3 {
+        color: grey;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .divu {
+        font-weight: bold;
+        color: grey;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .forPick {
+        padding-top: 8%;
+    }
+
+    .infoP {
+        font-weight: bold;
+        color: grey;
+    }
+
+    .main {
+        margin-bottom: 240px;
+    }
+
+
+    .imHereToStay {
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+        width: 100%;
+        height: 230px;
+        padding: 4%;
+        background: rgb(226, 138, 138);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+
+    .inp {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .lab {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .lab1 {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        padding-top: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .inp {
+        width: 100%;
+        height: 30px;
+        border: 2px solid grey;
+    }
+
+    .btn {
+        margin-top:1%;
+        border: none;
+        padding: 2%;
+        background: black;
+        color: white;
+        font-weight: bold;
+    }
+
+    .error {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-top: 1%;
+        font-weight: bold;
+        color: rgb(114, 11, 11);
+        display: none;
+    }
+
+    .contacts {
+        margin-right: 2%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 401px) and (max-width: 576px) {
+   
+    
+    .head {
+        padding-top: 2%;
+        font-weight: bold;
+        color: white;
+        background: rgb(224, 64, 64);
+        text-align: center;
+        margin-bottom: 0%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        font-size: 110%;
+    }
+
+    .hl {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .htwo {
+        font-size: 110%;
+        padding-left: 3%;
+       
+        color: grey;
+        font-weight: bold;
+    }
+
+    .para {
+        margin-left: 4%;
+        color: grey;
+        
+    }
+
+    .meth1 {
+        margin-top: 2%;
+        margin-right: 4%;
+    }
+
+    .meth2 {
+        margin-top: 7%;
+        margin-right: 4%;
+    }
+
+    .payMe {
+        padding-top: 4%;
+    }
+
+    .pay {
+        color: grey;
+        font-weight: bold;
+        font-size: 130%;
+        text-align: center;
+        margin-bottom: 0%;
+        padding-bottom: 1%;
+    }
+
+    .reduceMe {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .aqr {
+        text-align: center;
+    }
+
+    .qr {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .lnamba {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .aname1 {
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .moreInfo {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+
+    .help {
+        background: rgb(235, 235, 235);
+        padding-top: 2%;
+    }
+
+    .hin3 {
+        color: grey;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .divu {
+        font-weight: bold;
+        color: grey;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contacts {
+        margin: 2%;
+    }
+
+    .forPick {
+        padding-top: 8%;
+    }
+
+    .infoP {
+        font-weight: bold;
+        color: grey;
+    }
+
+    .main {
+        margin-bottom: 220px;
+    }
+
+
+    .imHereToStay {
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        padding: 4%;
+        background: rgb(226, 138, 138);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+
+    .inp {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .lab {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .lab1 {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        padding-top: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .inp {
+        width: 100%;
+        height: 30px;
+        border: 2px solid grey;
+    }
+
+    .btn {
+        margin-top:1%;
+        border: none;
+        padding: 2%;
+        background: black;
+        color: white;
+        font-weight: bold;
+    }
+
+    .error {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-top: 1%;
+        font-weight: bold;
+        color: rgb(114, 11, 11);
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+   
+    
+    .head {
+        padding-top: 2%;
+        font-weight: bold;
+        color: white;
+        background: rgb(224, 64, 64);
+        text-align: center;
+        margin-bottom: 0%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        font-size: 110%;
+    }
+
+    .hl {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .htwo {
+        font-size: 110%;
+        padding-left: 3%;
+       
+        color: grey;
+        font-weight: bold;
+    }
+
+    .para {
+        margin-left: 4%;
+        color: grey;
+        
+    }
+
+    .meth1 {
+        margin-right: 4%;
+    }
+
+    .meth2 {
+        margin-top: 12%;
+        margin-right: 4%;
+    }
+
+    .payMe {
+        padding-top: 4%;
+    }
+
+    .pay {
+        color: grey;
+        font-weight: bold;
+        font-size: 130%;
+        text-align: center;
+        margin-bottom: 0%;
+        padding-bottom: 1%;
+    }
+
+    .reduceMe {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+
+    .qr {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .aqr {
+        text-align: center;
+    }
+
+    .lnamba {
+        text-align: center;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .aname1 {
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .moreInfo {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+
+    .help {
+        background: rgb(235, 235, 235);
+        padding-top: 2%;
+    }
+
+    .hin3 {
+        color: grey;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .divu {
+        font-weight: bold;
+        color: grey;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .forPick {
+        padding-top: 12%;
+    }
+
+    .infoP {
+        font-weight: bold;
+        color: grey;
+    }
+
+    .main {
+        margin-bottom: 200px;
+    }
+
+
+    .imHereToStay {
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+        width: 100%;
+        height: 180px;
+        padding: 4%;
+        background: rgb(226, 138, 138);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+
+    .inp {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .lab {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .lab1 {
+        font-weight: bold;
+        color: rgb(84, 84, 84);
+        padding-top: 1%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .inp {
+        width: 100%;
+        height: 30px;
+        border: 2px solid grey;
+    }
+
+    .btn {
+        margin-top:1%;
+        border: none;
+        padding: 2%;
+        background: black;
+        color: white;
+        font-weight: bold;
+    }
+
+    .error {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-top: 1%;
+        font-weight: bold;
+        color: rgb(114, 11, 11);
+        display: none;
+    }
+}

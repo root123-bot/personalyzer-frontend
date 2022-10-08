@@ -1,0 +1,670 @@
+
+/* 
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+    .odb {
+        margin-top: 15%;
+    }
+
+    .pre {
+        position: absolute;
+        top: 160px;
+        left: 3%;
+        cursor: pointer;
+    }
+
+    .nex {
+        position: absolute;
+        top: 160px;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    .imgNo {
+        background: linear-gradient(222, 222, 222, .3);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        position: absolute;
+        top: 340px;
+        left: 3%;
+    }
+} */
+
+.err1 {
+    margin: 1%;
+    display: none;
+    
+} 
+
+
+@media screen and (min-width: 577px) and (max-width: 899px) {
+    .odb {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+    }
+
+    .ima {
+        width: 100%;
+    }
+
+    .pre {
+        position: absolute;
+        top: 140px;
+        left: 3%;
+        cursor: pointer;
+    }
+
+    .nex {
+        position: absolute;
+        top: 140px;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    .imgNo {
+        padding: 2px;
+        background: rgb(143, 143, 143);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        position: absolute;
+        top: 400px;
+        left: 3%;
+    }
+
+    .tit {
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main {
+        color: grey;
+        font-weight: bold;
+        font-size: 180%;
+        margin-bottom: 0%;
+    }
+    .sub {
+        font-weight: bold;
+        color: rgb(128, 68, 34);
+    }
+
+
+    .priQuan {
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+
+    .price {
+        color: black;
+        margin-bottom: 1%;
+    }
+
+    .beiNdogo {
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .bei {
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .qua {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0.5%;
+    }
+
+    .namba {
+        color: grey;
+    }
+
+    .amountWrapper {
+        margin-top: 0%;
+
+        width: 38%;
+        border: 1px solid rgb(159, 159, 159);
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .actualAmount {
+        padding-top: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .plus {
+        padding-top: 2px;
+        padding-right: 4px;
+        padding-left: 9px;
+        border-right: 1px solid grey;
+    }
+
+    .minus {
+        padding-top: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-left: 1px solid grey;
+    }
+
+
+    .plus:hover, .minus:hover {
+        cursor: pointer;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .customizations {
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px 5px;
+        background-color: rgba(226, 226, 226, 0.849);
+    }
+
+    .holder {
+        padding: 2%;
+    }
+
+    .custom {
+        color: grey;
+        font-weight: bold;
+        font-size: 140%;
+        margin-bottom: 0.3%;
+        padding-bottom: 0%;
+    }
+
+    .ch {
+        margin-top: 0%;
+        margin-bottom: 2%;
+        padding-bottom: 0%;
+        border: 1px grey solid;
+    }
+
+    .pName {
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(51, 58, 49);
+        padding-top: 0px;
+    }
+
+
+    .pValue {
+        font-weight: bolder;
+        font-size: 15px;
+        margin-left: 9px;
+        margin-top: -9px;
+        padding-top: 0px;
+        color: rgb(53, 40, 25);
+        border: 1px solid rgb(190, 255, 149);
+        background: rgb(111, 220, 235);
+        padding: 4px;
+        padding-bottom: 0px;
+    }
+
+    .radioContainer {
+        padding: 4%;
+        
+    }
+
+    .label {
+        padding-right: 3%;
+        margin-left: 1%;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .rad:hover, .label:hover {
+        cursor: pointer;
+    }
+
+    .text {
+        margin-bottom: 4%;
+    }
+
+    .head {
+        color: rgb(51, 58, 49);
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+
+    .ason {
+        
+        font-weight: bold;
+        color: rgb(138, 138, 138);
+    }
+
+    /* .imageCont {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    } */
+    
+}
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
+    .odb {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+    }
+
+    .ima {
+        width: 100%;
+    }
+
+    .pre {
+        position: absolute;
+        top: 140px;
+        left: 3%;
+        cursor: pointer;
+    }
+
+    .nex {
+        position: absolute;
+        top: 140px;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    .imgNo {
+        padding: 2px;
+        background: rgb(143, 143, 143);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        position: absolute;
+        top: 320px;
+        left: 3%;
+    }
+
+    .tit {
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main {
+        color: grey;
+        font-weight: bold;
+        font-size: 180%;
+        margin-bottom: 0%;
+    }
+    .sub {
+        font-weight: bold;
+        color: rgb(128, 68, 34);
+    }
+
+
+    .priQuan {
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+
+    .price {
+        color: black;
+        margin-bottom: 1%;
+    }
+
+    .beiNdogo {
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .bei {
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .qua {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0.5%;
+    }
+
+    .namba {
+        color: grey;
+    }
+
+    .amountWrapper {
+        margin-top: 0%;
+
+        width: 54%;
+        border: 1px solid rgb(159, 159, 159);
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .actualAmount {
+        padding-top: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .plus {
+        padding-top: 2px;
+        padding-right: 4px;
+        padding-left: 9px;
+        border-right: 1px solid grey;
+    }
+
+    .minus {
+        padding-top: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-left: 1px solid grey;
+    }
+
+
+    .plus:hover, .minus:hover {
+        cursor: pointer;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .customizations {
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px 5px;
+        background-color: rgba(226, 226, 226, 0.849);
+    }
+
+    .holder {
+        padding: 2%;
+    }
+
+    .custom {
+        color: grey;
+        font-weight: bold;
+        font-size: 140%;
+        margin-bottom: 0.3%;
+        padding-bottom: 0%;
+    }
+
+    .ch {
+        margin-top: 0%;
+        margin-bottom: 2%;
+        padding-bottom: 0%;
+        border: 1px grey solid;
+    }
+
+    .pName {
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(51, 58, 49);
+        padding-top: 0px;
+    }
+
+
+    .pValue {
+        font-weight: bolder;
+        font-size: 15px;
+        margin-left: 9px;
+        margin-top: -9px;
+        padding-top: 0px;
+        color: rgb(53, 40, 25);
+        border: 1px solid rgb(190, 255, 149);
+        background: rgb(111, 220, 235);
+        padding: 4px;
+        padding-bottom: 0px;
+    }
+
+    .radioContainer {
+        padding: 4%;
+        
+    }
+
+    .label {
+        padding-right: 3%;
+        margin-left: 1%;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .rad:hover, .label:hover {
+        cursor: pointer;
+    }
+
+    .text {
+        margin-bottom: 4%;
+    }
+
+    .head {
+        color: rgb(51, 58, 49);
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+
+    .ason {
+        
+        font-weight: bold;
+        color: rgb(138, 138, 138);
+    }
+
+    
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    .odb {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+    }
+
+    .ima {
+        width: 100%;
+    }
+
+    .pre {
+        position: absolute;
+        top: 140px;
+        left: 3%;
+        cursor: pointer;
+        background: white;
+        padding: 2%;
+        border-radius: 2px 2px;
+    }
+
+    .nex {
+        position: absolute;
+        top: 140px;
+        right: 5%;
+        cursor: pointer;
+        background: white;
+        padding: 2%;
+        border-radius: 2px 2px;
+    }
+
+    
+    .imgNo {
+        padding: 2px;
+        background: rgb(143, 143, 143);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        position: absolute;
+        top: 250px;
+        left: 3%;
+        z-index: 1;
+    }
+
+    .tit {
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main {
+        color: grey;
+        font-weight: bold;
+        font-size: 180%;
+        margin-bottom: 0%;
+    }
+    .sub {
+        font-weight: bold;
+        color: rgb(128, 68, 34);
+    }
+
+
+    .priQuan {
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+
+    .price {
+        color: black;
+        margin-bottom: 1%;
+    }
+
+    .beiNdogo {
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    .bei {
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .qua {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0.5%;
+    }
+
+    .namba {
+        color: grey;
+    }
+
+    .amountWrapper {
+        margin-top: 0%;
+
+        width: 70%;
+        border: 1px solid rgb(159, 159, 159);
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .actualAmount {
+        padding-top: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .plus {
+        padding-top: 2px;
+        padding-right: 4px;
+        padding-left: 9px;
+        border-right: 1px solid grey;
+    }
+
+    .minus {
+        padding-top: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-left: 1px solid grey;
+    }
+
+
+    .plus:hover, .minus:hover {
+        cursor: pointer;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .customizations {
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px 5px;
+        background-color: rgba(226, 226, 226, 0.849);
+    }
+
+    .holder {
+        padding: 2%;
+    }
+
+    .custom {
+        color: grey;
+        font-weight: bold;
+        font-size: 140%;
+        margin-bottom: 0.3%;
+        padding-bottom: 0%;
+    }
+
+    .ch {
+        margin-top: 0%;
+        margin-bottom: 2%;
+        padding-bottom: 0%;
+        border: 1px grey solid;
+    }
+
+    .pName {
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(51, 58, 49);
+        padding-top: 0px;
+    }
+
+
+    .pValue {
+        font-weight: bolder;
+        font-size: 15px;
+        margin-left: 9px;
+        margin-top: -9px;
+        padding-top: 0px;
+        color: rgb(53, 40, 25);
+        border: 1px solid rgb(190, 255, 149);
+        background: rgb(111, 220, 235);
+        padding: 4px;
+        padding-bottom: 0px;
+    }
+
+    .radioContainer {
+        padding: 4%;
+        
+    }
+
+    .label {
+        padding-right: 3%;
+        margin-left: 1%;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .rad:hover, .label:hover {
+        cursor: pointer;
+    }
+
+    .text {
+        margin-bottom: 4%;
+    }
+
+    .head {
+        color: rgb(51, 58, 49);
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+
+    .ason {
+        
+        font-weight: bold;
+        color: rgb(138, 138, 138);
+    }
+
+}

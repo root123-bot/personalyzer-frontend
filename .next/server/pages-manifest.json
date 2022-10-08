@@ -1,0 +1,23 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/cart": "pages/cart.html",
+  "/done": "pages/done.js",
+  "/gender": "pages/gender.js",
+  "/": "pages/index.html",
+  "/jisajili": "pages/jisajili.js",
+  "/login": "pages/login.js",
+  "/mpesa": "pages/mpesa.html",
+  "/order": "pages/order.html",
+  "/output": "pages/output.js",
+  "/preview": "pages/preview.js",
+  "/products": "pages/products.html",
+  "/profile": "pages/profile.html",
+  "/register": "pages/register.js",
+  "/reset": "pages/reset.html",
+  "/resetConfirm": "pages/resetConfirm.js",
+  "/showRoom": "pages/showRoom.js",
+  "/tigopesa": "pages/tigopesa.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

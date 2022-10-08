@@ -1,0 +1,36 @@
+
+
+.father {
+    margin-left: 5%;
+    padding-top: 15%;
+}
+
+.spt {
+   font-weight: bolder;
+   font-size: 20px;
+   margin-left:3%;
+}
+
+.hr {
+    margin-bottom: 5%;
+}
+
+.cont {
+    margin-top: 1%;
+    display: none;
+}
+
+.cont2 {
+    margin-top: 1%;
+    display: none;
+}
+
+.loginError {
+    margin-top: 1%;
+}
+
+.fp {
+    color: rgb(141, 71, 13);
+    font-weight: bold;
+    cursor: pointer;
+}

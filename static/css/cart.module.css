@@ -1,0 +1,1042 @@
+.bd {
+  margin: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.top {
+  padding-top: 2%;
+
+  width: 100%;
+}
+
+.hvalue {
+  font-size: 120%;
+  font-weight: bold;
+  color: rgb(44, 138, 155);
+}
+
+.nValue {
+  color: rgb(44, 138, 155);
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.amo {
+  padding-top: 4%;
+}
+
+.had {
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 2%;
+  color: grey;
+  margin-right: 2%;
+}
+
+.bottom {
+  margin-top: 9%;
+}
+
+.hOne {
+  text-align: center;
+  color: grey;
+  margin-bottom: 0%;
+}
+
+.check2 {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  border: 1px solid rgb(163, 163, 163);
+  /* border-radius: 8px 8px; */
+  margin-top: 4%;
+}
+
+.he {
+  text-align: center;
+}
+
+.cls {
+  border: 1px solid rgb(163, 163, 163);
+  padding-top: 2%;
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  /* border-radius: 8px 8px; */
+  margin-top: 0%;
+}
+
+.sec {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.hl {
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.holder {
+  margin-left: 5%;
+}
+
+.bichwa {
+  position: absolute;
+  top: 28%;
+  left: 32%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.mini {
+  font-size: 13px;
+  color: grey;
+  font-weight: bold;
+  position: relative;
+  left: 0%;
+  top: 30%;
+}
+
+.hhh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  font-weight: bold;
+  color: grey;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hha {
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  width: 2.8rem;
+  height: 2.77rem;
+  margin-top: 12%;
+  border-radius: 50%;
+  color: white;
+  /* color: grey; */
+  background: indianred;
+  /* background: rgb(212, 212, 212); */
+}
+
+.hha:hover {
+  /* background: rgb(192, 192, 192); */
+  background: rgb(177, 33, 33);
+}
+
+.pop {
+  padding: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.do {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+}
+
+.pname {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.idadi {
+  color: rgb(153, 153, 153);
+}
+
+.sp {
+  font-weight: bolder;
+}
+
+.amountWrapper {
+  width: 120%;
+  border: 1px solid rgb(159, 159, 159);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  padding-top: 2px;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-right: 1px solid grey;
+}
+
+.minus {
+  padding-top: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-left: 1px solid grey;
+}
+
+.plus:hover,
+.minus:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+
+.actualAmount {
+  padding-top: 2px;
+}
+
+.close {
+  padding: 9px;
+  border: 1px solid grey;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+
+.btn {
+  padding: 2%;
+}
+.tHeade {
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+  font-size: 120%;
+}
+
+.flexOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.prop {
+  color: rgb(133, 74, 47);
+  font-size: 75%;
+  
+}
+
+
+
+@media screen and (min-width: 1201px) {
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .bd {
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .holder {
+    position: relative;
+  }
+
+ 
+  .bichwa {
+    position: absolute;
+    white-space: nowrap;
+    top: 0%;
+    left: 37%;
+    width: 100%;
+    font-size: 110%;
+    color: grey;
+  }
+
+  .prop {
+    color: rgb(133, 74, 47);
+    font-size: 75%;
+   
+  }
+
+  .hOne {
+    font-weight: bold;
+    font-size: 120%;
+  }
+
+  .had {
+    font-size: 105%;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .bd {
+    margin: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .holder {
+    position: relative;
+  }
+
+  .hahaha {
+    
+  }
+
+  .bichwa {
+    position: absolute;
+    white-space: nowrap;
+    top: 0%;
+    left: 39%;
+    width: 100%;
+    font-size: 110%;
+    color: grey;
+  }
+
+  .prop {
+    color: rgb(133, 74, 47);
+    font-size: 75%;
+   
+  }
+
+  .hOne {
+    font-weight: bold;
+    font-size: 120%;
+  }
+
+  .had {
+    font-size: 105%;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 899px) {
+  .bd {
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .h {
+    margin-top: 1%;
+    padding-top: 0%;
+  }
+
+  .mHeader {
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    font-size: 120%;
+  }
+
+  .sec {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 200px; /* Hapa ndo sehemu ya ku-addjust hii footer/static isije ikaziziba zingine.. */
+  }
+
+  .behaveLikeCard {
+    background: rgb(219, 219, 219);
+    margin-top: 4%;
+  }
+
+  .proImg {
+    margin: 3%;
+    border-radius: 10%;
+  }
+
+  .conte {
+    position: relative;
+    padding-top: 4%;
+  }
+
+  .explain {
+    position: absolute;
+    top: 13%;
+    left: 24%;
+  }
+
+  .bich {
+    font-weight: bold;
+    font-size: 120%;
+    color: grey;
+    margin-bottom: 0%;
+    
+  }
+
+  .mpunga {
+    font-weight: bold;
+  }
+  .props {
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 80%;
+    color: rgb(133, 74, 47);
+  }
+
+  .quantity {
+    position: absolute;
+    top: 32%;
+    left: 72%;
+  }
+
+  .qua {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.5%;
+  }
+
+  .namba {
+    color: grey;
+  }
+
+  .amountWrapper {
+    margin-top: 0%;
+
+    width: 95%;
+    border: 1px solid rgb(159, 159, 159);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .actualAmount {
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .plus {
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 9px;
+    border-right: 1px solid grey;
+  }
+
+  .minus {
+    padding-top: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid grey;
+  }
+
+  .plus:hover,
+  .minus:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+  }
+
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    /* text-decoration: underline;
+    color: indianred;
+    font-weight: bold;
+    font-size: 80%; */
+    cursor: pointer;
+  }
+
+  .checkout {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: white;
+    position: fixed;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .row1 {
+    padding-top: 5%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .tt {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  .tvalue {
+    font-weight: bold;
+    color: grey;
+    font-size: 140%;
+  }
+
+  .checkBtn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: none;
+    padding: 3%;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 139, 23);
+    color: white;
+    font-weight: bold;
+    background: tomato;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 576px) {
+  .bd {
+    margin: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .h {
+    margin-top: 1%;
+    padding-top: 0%;
+  }
+
+  .mHeader {
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    font-size: 120%;
+  }
+
+  .sec {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 150px; /* Hapa ndo sehemu ya ku-addjust hii footer/static isije ikaziziba zingine.. */
+  }
+
+  .behaveLikeCard {
+    background: rgb(219, 219, 219);
+    margin-top: 4%;
+  }
+
+  .proImg {
+    margin: 3%;
+    border-radius: 10%;
+  }
+
+  .conte {
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 2%;
+  }
+
+  .explain {
+    position: absolute;
+    top: 23%;
+    left: 24%;
+  }
+
+  .bich {
+    font-weight: bold;
+    font-size: 120%;
+    color: grey;
+    margin-bottom: 0%;
+  }
+
+  .mpunga {
+    font-weight: bold;
+  }
+  .props {
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 80%;
+    color: rgb(133, 74, 47);
+  }
+
+  .quantity {
+    position: absolute;
+    top: 32%;
+    left: 72%;
+  }
+
+  .qua {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.5%;
+  }
+
+  .namba {
+    color: grey;
+  }
+
+  .amountWrapper {
+    margin-top: 0%;
+
+    width: 95%;
+    border: 1px solid rgb(159, 159, 159);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .actualAmount {
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .plus {
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 9px;
+    border-right: 1px solid grey;
+  }
+
+  .minus {
+    padding-top: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid grey;
+  }
+
+  .plus:hover,
+  .minus:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+  }
+
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    /* text-decoration: underline;
+    color: indianred;
+    font-weight: bold;
+    font-size: 80%; */
+    cursor: pointer;
+  }
+
+  .checkout {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: white;
+    position: fixed;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .row1 {
+    padding-top: 5%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .tt {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  .tvalue {
+    font-weight: bold;
+    color: grey;
+    font-size: 140%;
+  }
+
+  .checkBtn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: none;
+    padding: 3%;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 139, 23);
+    color: white;
+    font-weight: bold;
+    background: tomato;
+  }
+}
+
+@media screen and (min-width: 331px) and (max-width: 400px) {
+  .bd {
+    margin: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .h {
+    margin-top: 1%;
+    padding-top: 0%;
+  }
+
+  .mHeader {
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    font-size: 120%;
+  }
+
+  .sec {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 150px; /* Hapa ndo sehemu ya ku-addjust hii footer/static isije ikaziziba zingine.. */
+  }
+
+  .behaveLikeCard {
+    background: rgb(219, 219, 219);
+    margin-top: 4%;
+  }
+
+  .proImg {
+    margin: 3%;
+    border-radius: 10%;
+  }
+
+  .conte {
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 7%;
+
+  }
+
+  .explain {
+    position: absolute;
+    top: 23%;
+    left: 24%;
+  }
+
+  .bich {
+    font-weight: bold;
+    font-size: 120%;
+    color: grey;
+    margin-bottom: 0%;
+  }
+
+  .mpunga {
+    font-weight: bold;
+  }
+  .props {
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 80%;
+    color: rgb(133, 74, 47);
+  }
+
+  .quantity {
+    position: absolute;
+    top: 32%;
+    left: 72%;
+  }
+
+  .qua {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.5%;
+  }
+
+  .namba {
+    color: grey;
+  }
+
+  .amountWrapper {
+    margin-top: 0%;
+
+    width: 95%;
+    border: 1px solid rgb(159, 159, 159);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .actualAmount {
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .plus {
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 9px;
+    border-right: 1px solid grey;
+  }
+
+  .minus {
+    padding-top: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid grey;
+  }
+
+  .plus:hover,
+  .minus:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+  }
+
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: underline;
+    color: indianred;
+    font-weight: bold;
+    font-size: 80%;
+    cursor: pointer;
+  }
+
+  .checkout {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: white;
+    position: fixed;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .row1 {
+    padding-top: 5%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .tt {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  .tvalue {
+    font-weight: bold;
+    color: grey;
+    font-size: 140%;
+  }
+
+  .checkBtn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: none;
+    padding: 3%;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 139, 23);
+    color: white;
+    font-weight: bold;
+    background: tomato;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 330px) {
+  .bd {
+    margin: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .flexOne {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .h {
+    margin-top: 1%;
+    padding-top: 0%;
+  }
+
+  .mHeader {
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    font-size: 120%;
+  }
+
+  .sec {
+    width: 100%;
+    min-height: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 150px; /* Hapa ndo sehemu ya ku-addjust hii footer/static isije ikaziziba zingine.. */
+  }
+
+  .behaveLikeCard {
+    background: rgb(219, 219, 219);
+    margin-top: 4%;
+  }
+
+  .proImg {
+    margin: 3%;
+    border-radius: 10%;
+  }
+
+  .conte {
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 7%;
+  }
+
+  .explain {
+    position: absolute;
+    top: 23%;
+    left: 26%;
+  }
+
+  .bich {
+    font-weight: bold;
+    font-size: 120%;
+    color: grey;
+    margin-bottom: 0%;
+  }
+
+  .mpunga {
+    font-weight: bold;
+  }
+  .props {
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 80%;
+    color: rgb(133, 74, 47);
+  }
+
+  .quantity {
+    position: absolute;
+    top: 32%;
+    left: 70%;
+  }
+
+  .qua {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.5%;
+  }
+
+  .namba {
+    color: grey;
+  }
+
+  .amountWrapper {
+    margin-top: 0%;
+
+    width: 95%;
+    border: 1px solid rgb(159, 159, 159);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .actualAmount {
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .plus {
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 9px;
+    border-right: 1px solid grey;
+  }
+
+  .minus {
+    padding-top: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid grey;
+  }
+
+  .plus:hover,
+  .minus:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+  }
+
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: underline;
+    color: indianred;
+    font-weight: bold;
+    font-size: 80%;
+    cursor: pointer;
+  }
+
+  .checkout {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    display: block;
+    background: white;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .row1 {
+    padding-top: 6%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .tt {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  .tvalue {
+    font-weight: bold;
+    color: grey;
+    font-size: 130%;
+  }
+
+  .checkBtn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: none;
+    padding: 3%;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 139, 23);
+    color: white;
+    font-weight: bold;
+    background: tomato;
+  }
+}

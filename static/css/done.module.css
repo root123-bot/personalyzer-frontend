@@ -1,0 +1,13 @@
+
+
+@media screen, (max-width: 800px) {
+    .conte {
+        padding-top: 20%;
+    }
+}
+
+@media screen, (min-width: 801px) {
+    .conte {
+        padding-top: 10%;
+    }
+}   

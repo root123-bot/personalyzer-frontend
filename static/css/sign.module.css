@@ -1,0 +1,23 @@
+
+.spt {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.cont {
+    margin-top: 1%;
+    display: none;
+}
+
+.cont2 {
+    margin-top: 1%;
+    display: none;
+}
+
+
+.fp {
+    color: rgb(141, 71, 13);
+    font-weight: bold;
+    cursor: pointer;
+}

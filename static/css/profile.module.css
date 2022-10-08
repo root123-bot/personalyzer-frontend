@@ -1,0 +1,335 @@
+.pro {
+    margin-top: 2%;
+    border: 1px solid grey;
+}
+.col1 {
+    background-color: black;
+}
+
+.para {
+    padding: 3%;
+    color: grey;
+    padding-left: 5%;
+    padding-top: 8%;
+    font-weight: bolder;
+    font-size: 110%;
+    margin: 0%;
+}
+
+
+.para1 {
+    padding: 3%;
+    padding-top: 8%;
+    color: grey;
+    padding-left: 5%;
+    font-weight: bolder;
+    font-size: 110%;
+    margin: 0%;
+    background: rgb(221, 221, 221);
+    border-right: 1px solid grey;
+}
+
+.para4 {
+    padding: 3%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    color: grey;
+    padding-left: 5%;
+    font-weight: bolder;
+    font-size: 110%;
+    margin: 0%;
+}
+
+.para:hover, .para1:hover, .para4:hover {
+    cursor: pointer;
+    /* background: rgb(73, 71, 71); */
+}
+
+.wrapperImage {
+    margin-left: 4%;
+    margin-top: 3.4%;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.pos {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+
+.nameWrapper {
+    font-size: 150%;
+    font-weight: bold;
+    color: grey;
+}
+
+.actualname {
+    margin-right: 4%;
+    color: black;
+}
+
+
+.actualValue {
+    color: grey;
+}
+
+.emailWrapper {
+    margin-top: 10%;
+}
+
+.mail {
+    color: grey;
+    font-weight: bold;
+}
+
+.mvalue {
+    margin-right: 5px;
+}
+
+.nl {
+    border: 1px solid grey;
+    margin-top: 4%;
+    padding-right: 8%;
+}
+
+
+
+.hl {
+    border: 1px solid grey;
+    margin-right: 10%;
+    
+}
+
+.cartSum {
+    display: none;
+    margin-top: 5%;
+}
+
+.itemsWrapper {
+    margin-left: 7%;
+}
+
+.cs {
+    color: grey;
+    font-weight: bold;
+}
+
+.tit {
+    margin-right: 5px;
+}
+
+.tit1 {
+    margin-right: 5px;
+}
+
+.cs1 {
+    color: grey;
+    font-weight: bold;
+}
+
+.notiWrapper {
+    display: none;
+    margin-top: 5%;
+}
+
+.passWrapper {
+    display: none;
+    margin-top: 1%;
+}
+
+.lab {
+    
+    font-weight: bold;
+    color: grey;
+}
+
+.lab1 {
+    font-weight: bold;
+    color: grey;
+    margin-top: 1%;
+}
+
+.passForm {
+    margin-left: 5%;
+}
+
+.inp {
+    border: 2px solid grey;
+    height: 30px;
+    width: 45%;
+}
+
+.chName {
+    margin-top: 12%;
+}
+
+.changeName {
+    color: grey;
+    font-weight: bold;
+    font-size: 130%;
+    border: 2px solid grey;
+    padding: 1%;
+    white-space: nowrap;
+}
+
+.changeName1 {
+    position: relative;
+    left: 10%;
+    white-space: nowrap;
+    color: grey;
+    font-weight: bold;
+    font-size: 130%;
+    border: 2px solid grey;
+    padding: 1%;
+    /* margin-right: 20px; */
+}
+
+.changeName1:hover, .changeName:hover {
+    cursor: pointer;
+    background: rgb(197, 197, 197);
+}
+
+.btn {
+    padding: 0.5%;
+    border: 2px solid black;
+    margin-top: 3%;
+}
+
+.editProfile {
+    display: none;
+    margin-top: 2%;
+}
+
+.jina {
+    font-weight: bold;
+    color: grey;
+    font-size: 100%;
+}
+
+.jinaInp {
+    border: 2px solid grey;
+    height: 30px;
+    width: 80%;
+}
+
+
+
+.upload {
+    display: none;
+}
+
+.chan {
+    margin-left: 4%;
+    width: 100px;
+    height: 90px;
+    border: 2px solid rgb(179, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.chan:hover {
+    cursor: pointer;
+}
+
+.sub {
+    margin-left: 2%;
+    width: 100%;
+    
+    margin-right: 10%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(214, 224, 206);
+    background: rgb(164, 167, 164);
+}
+
+.success {
+    /* border: 1px solid greenyellow; */
+    margin-top: 10px;
+    display: none;
+}
+
+.neno {
+    color: rgb(109, 172, 16);
+    font-weight: bold;
+}
+
+.error {
+    
+    margin-top: 10px;
+    display: none;
+}
+
+.neno1 {
+    color: rgb(184, 82, 82);
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+    margin-left: 4px;
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .wrapperImage {
+        margin-left: 0%;
+
+    }
+
+    .profile {
+        position: relative;
+    }
+
+    .pos {
+        position: absolute;
+        top: 15%;
+        left: 45%;
+    }
+    
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    .wrapperImage {
+        margin-left: 0%;
+
+    }
+
+    .profile {
+        position: relative;
+    }
+
+    .pos {
+        position: absolute;
+        top: 15%;
+        left: 45%;
+    }
+
+    .para {
+        padding: 10%;
+        color: grey;
+        padding-left: 5%;
+        padding-top: 8%;
+        
+    }
+    
+    
+    .para1 {
+        padding: 3%;
+        padding-top: 8%;
+        padding-left: 5%;
+        
+    }
+    
+    .para4 {
+        
+        padding: 10%;
+        padding-top: 8%;
+        padding-left: 5%;
+    }
+
+}

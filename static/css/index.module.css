@@ -1,0 +1,884 @@
+.top {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #c9c9c9;
+  position: fixed;
+  z-index: 2;
+}
+
+.phoneProfile {
+  border: 2px solid grey;
+  border-radius: 50%;
+  background: white;
+}
+
+.sectionStyle {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Mono", monospace;
+}
+
+.behaveLikenav {
+  width: 70%;
+  padding: 0;
+  margin-left: 0%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.inlineForm {
+  position: relative;
+}
+
+.brand {
+  display: inline;
+  margin-right: 19%;
+  margin-left: -3%;
+  padding-left: 0%;
+}
+.brand:hover {
+  cursor: pointer;
+}
+
+.search {
+  width: 65%;
+  height: 45px;
+  padding: 12px 20px;
+  margin: 0%;
+  margin-left: -6%;
+  box-sizing: border-box;
+  /* border: 3px solid #ccc; */
+  -webkit-transition: 0.5s;
+  border: 3px solid #555;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 30px;
+}
+/* 
+.search:focus {
+    border: 3px solid #555;
+} */
+
+.searchIcon {
+  margin-left: 1%;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+/* this is out filter div... */
+.dlist {
+  background: white;
+  border: none;
+  display: block;
+  z-index: 5;
+  position: absolute;
+  /* top: 86%;
+    left: 28.58%;
+    width: 25.0%; */
+  border-left: 3px solid #555;
+  border-right: 3px solid #555;
+  border-bottom: 3px solid #555;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+  /* One of the properties that cannot be animated is the display property.20 Nov 2013 
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    */
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.query {
+  margin-bottom: 1%;
+  padding-left: 3%;
+  padding: 4%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 110%;
+  color: grey;
+  font-weight: bold;
+}
+
+.query:hover {
+  background: #c9c9c9;
+  cursor: pointer;
+}
+
+.tit {
+  color: rgb(169, 182, 53);
+  font-weight: bold;
+}
+
+.cat {
+  font-weight: bold;
+  margin-right: 3%;
+}
+
+.aboutUs {
+  position: absolute;
+  left: 90%;
+  top: 30%;
+  margin-left: 13%;
+  font-size: large;
+  font-weight: bolder;
+  color: grey;
+  white-space: nowrap;
+}
+
+.aboutUs:hover {
+  color: rgb(80, 80, 80);
+}
+
+.proPic {
+  position: absolute;
+  left: 99%;
+  top: 12%;
+  margin-left: 35%;
+}
+.proPic:hover {
+  cursor: pointer;
+}
+
+.aboutGuide {
+  position: absolute;
+  left: 95%;
+  top: 30%;
+  margin-left: 24%;
+  font-size: large;
+  font-weight: bolder;
+  color: grey;
+}
+
+.aboutGuide:hover {
+  color: rgb(80, 80, 80);
+}
+
+.cartIcon {
+  margin-left: 7%;
+}
+
+.toggle {
+  border: none;
+  display: none;
+  z-index: 5;
+  position: absolute;
+  top: 80%;
+  left: 74%;
+  width: 10%;
+
+  /* display: none; */
+  /* One of the properties that cannot be animated is the display property.20 Nov 2013 */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 0.2%;
+}
+
+.toggle1 {
+  background: rgb(233, 233, 233);
+
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.int {
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0%;
+
+  font-size: 110%;
+}
+
+.int:hover {
+  cursor: pointer;
+  background: rgb(179, 179, 179);
+}
+
+.customPro {
+  position: absolute;
+  left: 99%;
+  top: 12%;
+  margin-left: 35%;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background: white;
+}
+
+/* starting from here is the additional css powered by responsivity of the website */
+
+.bar {
+  position: absolute;
+  top: 30%;
+  right: 0.5%;
+}
+
+.bar:hover {
+  cursor: pointer;
+}
+
+.sidebar {
+  display: none;
+
+  position: absolute;
+
+  top: 0%;
+  z-index: 6;
+  right: 0%;
+  width: 70%;
+  margin-right: 0%;
+  height: 100%;
+  margin-left: auto;
+  background: rgb(63, 63, 63);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  top: 3%;
+  right: 6%;
+  width: 30px;
+  height: 30px;
+  background: #888;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 160%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.ss {
+  font-weight: bold;
+  color: grey;
+  padding-top: 17%;
+  padding-left: 5%;
+}
+
+.notLogin {
+  cursor: pointer;
+}
+
+.hrulb {
+  background-color: rgb(126, 126, 126);
+}
+
+.shop {
+  margin-left: 3%;
+}
+
+.foo {
+  width: 100%;
+  color: wheat;
+  background: rgb(102, 102, 102);
+}
+
+.amo {
+  font-weight: bold;
+  /* color: rgb(216, 216, 216); */
+  color: rgb(255, 0, 0);
+}
+
+/* Hii ndo ya kuja ku-set baadae ili footer ikae chini kabisa.
+https://www.youtube.com/watch?v=US_3XvufMLU... */
+.main {
+  min-height: 100vh;
+}
+
+
+@media screen, (min-width: 1781px) {
+  .sectionStyle {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+  .kibe {
+    padding-top: 3%;
+    margin-left: 45%;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .kibe2 {
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .bobo {
+    overflow-y: hidden;
+  }
+
+  .proPic {
+    position: absolute;
+    left: 93%;
+    top: 12%;
+    margin-left: 35%;
+  }
+
+  .brand {
+    margin-right: 10%;
+  }
+}
+
+
+@media screen and (min-width: 1682px) and (max-width: 1780px) {
+  
+  
+  .sectionStyle {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+  .kibe {
+    padding-top: 3%;
+    margin-left: 45%;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .kibe2 {
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .bobo {
+    overflow-y: hidden;
+  }
+
+  .proPic {
+    position: absolute;
+    left: 93%;
+    top: 12%;
+    margin-left: 35%;
+  }
+}
+
+/* laptops and some desktops */
+@media screen and (min-width: 1652px) and (max-width: 1781px) {
+  .sectionStyle {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .customPro {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-left: 35%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 7%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+
+  .search {
+    width: 48%;
+    height: 38px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -5%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 3px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .cartIcon {
+    margin-left: 3%;
+  }
+
+  .proPic {
+    position: absolute;
+    left: 45%;
+    top: 5%;
+  }
+
+  .proPic:hover {
+    cursor: pointer;
+  }
+
+  .kibe {
+    padding-top: 3%;
+    margin-left: 40%;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .kibe2 {
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .bobo {
+    overflow-y: hidden;
+  }
+}
+
+/* laptops and some desktops */
+@media screen and (min-width: 1200px) and (max-width: 1651px) {
+  .sectionStyle {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .customPro {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-left: 35%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 7%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+
+  .search {
+    width: 48%;
+    height: 38px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -5%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 2px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .cartIcon {
+    margin-left: 3%;
+  }
+
+  .proPic {
+    position: absolute;
+    left: 45%;
+    top: 5%;
+  }
+
+  .proPic:hover {
+    cursor: pointer;
+  }
+
+  .kibe {
+    padding-top: 3%;
+    margin-left: 40%;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .kibe2 {
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .bobo {
+    overflow-y: hidden;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .sectionStyle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .customPro {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-left: 35%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: white;
+  }
+
+  /* me trying to deal with .ui .container an class offered by Container component if 
+    you use in semantic-ui-react.. you can override the property of these classes... 
+    
+    .ui.container {
+        width: 94%;
+    }
+    */
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 8%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+  .brand:hover {
+    cursor: pointer;
+  }
+
+  .search {
+    width: 48%;
+    height: 38px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -5%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 2px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .cartIcon {
+    margin-left: 3%;
+  }
+
+  .aboutUs {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    /* margin-left: 13%; */
+    font-size: medium;
+    font-weight: bolder;
+    color: grey;
+    white-space: nowrap;
+  }
+
+  .aboutUs:hover {
+    color: rgb(80, 80, 80);
+  }
+
+  .proPic {
+    position: absolute;
+    left: 45%;
+    top: 5%;
+  }
+  .proPic:hover {
+    cursor: pointer;
+  }
+
+  .kibe {
+    padding-top: 3%;
+    margin-left: 30%;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .kibe2 {
+    padding-top: 3%;
+    font-weight: bold;
+    color: rgb(202, 200, 200);
+    padding-bottom: 8%;
+    font-size: medium;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .bobo {
+    overflow-y: hidden;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 577px) and (max-width: 899px) {
+  .sectionStyle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 1%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 7%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+  .brand:hover {
+    cursor: pointer;
+  }
+
+  .search {
+    width: 56%;
+    height: 33px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -5%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 1px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .kibe {
+    margin-left: 20%;
+    padding-top: 5%;
+  }
+
+  .kibe2 {
+    padding-top: 15%;
+
+    margin-left: 2%;
+  }
+}
+
+/* phone */
+
+@media screen and (min-width: 401px) and (max-width: 576px) {
+  .sectionStyle {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 1%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+  .brand:hover {
+    cursor: pointer;
+  }
+
+  .search {
+    width: 50%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -8%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 1px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .tit,
+  .cat {
+    font-size: 92%;
+    white-space: nowrap;
+  }
+
+  .dlist {
+    overflow-x: hidden;
+  }
+
+  .kibe {
+    margin-left: 12%;
+    padding-top: 5%;
+  }
+
+  .kibe2 {
+    padding-top: 15%;
+
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .sectionStyle {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .behaveLikenav {
+    width: 100%;
+    padding: 1%;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .brand {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 1%;
+    padding-left: 0%;
+  }
+  .brand:hover {
+    cursor: pointer;
+  }
+
+  .search {
+    width: 50%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 0%;
+    margin-left: -8%;
+    box-sizing: border-box;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    border: 1px solid #555;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .tit,
+  .cat {
+    font-size: 92%;
+    white-space: nowrap;
+  }
+
+  .dlist {
+    overflow-x: hidden;
+  }
+
+  .kibe {
+    margin-left: 20%;
+    padding-top: 5%;
+  }
+
+  .kibe2 {
+    margin-left: 20%;
+  }
+}

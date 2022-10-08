@@ -1,0 +1,237 @@
+.baba {
+  width: 75%;
+}
+
+.topSeg {
+  margin-bottom: 4%;
+}
+
+.test {
+}
+
+.toto {
+  margin-top: 4%;
+  margin-left: 25%;
+}
+
+.seg1 {
+  margin-bottom: 5%;
+}
+
+.seg2 {
+  margin-top: 0%;
+}
+
+.p1 {
+  margin-bottom: 5%;
+}
+
+.p2 {
+  margin-top: 10%;
+}
+
+.hd {
+  padding: 2%;
+  background: rgb(224, 64, 64);
+}
+
+.kichwa {
+  color: rgb(255, 255, 255);
+}
+
+.para {
+  padding: 2%;
+  font-weight: bold;
+  color: grey;
+}
+
+.hd1 {
+  padding: 2%;
+  margin-top: 2%;
+  background: rgb(224, 64, 64);
+}
+
+.hd2 {
+  padding: 2%;
+  background: rgb(0, 115, 182);
+}
+
+.hd3 {
+  padding: 2%;
+  margin-top: 2%;
+  background: rgb(0, 115, 182);
+}
+
+.mpesa {
+  text-align: center;
+  padding: 1.2%;
+  color: white;
+  background: rgb(224, 64, 64);
+}
+
+.tpesa {
+  text-align: center;
+  padding: 1.2%;
+  color: white;
+  background: rgb(0, 115, 182);
+}
+
+.lnamba {
+  color: grey;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.qr {
+  color: grey;
+  font-weight: bold;
+  font-size: 130%;
+  margin-left: 9%;
+}
+
+.aname {
+  font-size: 220%;
+  text-align: center;
+  color: white;
+  background: grey;
+  padding: 1%;
+  border-radius: 1px solid white;
+}
+
+.aname1 {
+  font-size: 220%;
+  text-align: center;
+  color: white;
+  background: grey;
+  padding: 1%;
+
+  border-radius: 1px solid white;
+}
+
+.hint {
+  font-size: 120%;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 0.2%;
+}
+
+.addr {
+  margin-top: 0%;
+  margin-left: 8%;
+  color: rgb(197, 104, 104);
+}
+
+.hint2 {
+  font-size: 120%;
+  font-weight: bold;
+  color: grey;
+  margin-top: 2%;
+}
+
+.bt {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-top: 1%;
+  font-weight: bold;
+  color: rgb(114, 11, 11);
+  display: none;
+}
+
+@media screen and (min-width: 1401px) {
+    .baba {
+        width: 100%;
+    }
+
+    .toto {
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .baba {
+        width: 100%;
+    }
+
+    .toto {
+        margin-top: 4%;
+        margin-left: 6%;
+        margin-right: 6%
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .baba {
+    width: 100%;
+  }
+
+  .toto {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .hint {
+      font-size: 110%;
+  }
+  .hint2 {
+      font-size: 100%;
+  }
+}
+
+
+
+@media screen, (max-width: 899px) {
+    .baba {
+        width: 100%;
+    }
+
+    .sendMeCenter {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titl {
+        font-weight: bold;
+        color: grey;
+        font-size: 130%;
+        padding-bottom: 3%;
+        margin-bottom: 0%;
+    }
+
+
+    .mpe {
+        padding-bottom: 10%;
+    }
+
+
+    .mpeBtn {
+        width: 100%;
+        border: none;
+        font-weight: bold;
+        color: white;
+        background: rgb(224, 64, 64);
+        padding: 4%;
+        border-radius: 20px;
+    }
+
+    .tigBtn {
+        width: 100%;
+        border: none;
+        font-weight: bold;
+        color: white;
+        background: rgb(0, 140, 182);
+        padding: 4%;
+        border-radius: 20px;
+    }
+}
