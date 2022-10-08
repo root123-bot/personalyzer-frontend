@@ -5,7 +5,7 @@ import Head from "next/head";
 import { Grid, Icon, Segment } from "semantic-ui-react";
 import jwt_decode from "jwt-decode";
 import Router from "next/router";
-
+import BACKEND_ORIGIN from "../utils/domain";
 const MediaQuery = dynamic(
   () => {
     return import("react-responsive");
@@ -88,7 +88,7 @@ class TPesa extends Component {
     }
 
     // I thinks now we should submit the form
-    const response = await fetch("http://127.0.0.1:8000/api/create_order/", {
+    const response = await fetch(`${BACKEND_ORIGIN}/api/create_order/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -124,7 +124,7 @@ class TPesa extends Component {
   }
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -187,7 +187,7 @@ class TPesa extends Component {
 
         // Kama amekuwa aunthenticated vilevile inabidi tufetch kama huyu jamaa na products or not...
 
-        let response = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -213,7 +213,7 @@ class TPesa extends Component {
           isAunthenticated: true,
         });
 
-        let response = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -4,6 +4,7 @@ import jwt_decode from "jwt-decode";
 import styles from "../static/css/profile.module.css";
 import Router from "next/router";
 import { Header, Grid, Icon } from "semantic-ui-react";
+import BACKEND_ORIGIN from "../utils/domain";
 import dynamic from "next/dynamic";
 const MediaQuery = dynamic(
   () => {
@@ -110,7 +111,7 @@ class Profile extends Component {
       console.log("Thsi is upload data for you");
       console.log(uploadData);
 
-      const response = await fetch("http://localhost:8000/api/edit/", {
+      const response = await fetch(`${BACKEND_ORIGIN}/api/edit/`, {
         method: "POST",
         body: uploadData,
       });
@@ -258,7 +259,7 @@ class Profile extends Component {
         });
       }
 
-      let check = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+      let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -273,7 +274,7 @@ class Profile extends Component {
       if (output.message) {
         // the message is returned when the logged on user has not created
         // cart for him/her
-        let crack = await fetch("http://localhost:8000/api/profile/", {
+        let crack = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -307,7 +308,7 @@ class Profile extends Component {
       if (output.length < 1) {
         // a user can have cart but zero cart products..
 
-        let crack = await fetch("http://localhost:8000/api/profile/", {
+        let crack = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -351,7 +352,7 @@ class Profile extends Component {
         net_quantity: net_quantity,
       });
 
-      let crack = await fetch("http://localhost:8000/api/profile/", {
+      let crack = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -421,7 +422,7 @@ class Profile extends Component {
       this.state.oldPassword.trim().length > 0
     ) {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/change_password/",
+        `${BACKEND_ORIGIN}/api/change_password/`,
         {
           method: "POST",
           headers: {
@@ -499,7 +500,7 @@ class Profile extends Component {
   
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -582,7 +583,7 @@ class Profile extends Component {
                         <MediaQuery maxWidth={1000}>
                           <img
                             className={styles.wrapperImage}
-                            src={`http://127.0.0.1:8000${this.state.profile_pic}`}
+                            src={`${BACKEND_ORIGIN}${this.state.profile_pic}`}
                             width={180}
                             height={180}
                           />
@@ -590,7 +591,7 @@ class Profile extends Component {
                         <MediaQuery minWidth={1001}>
                           <img
                             className={styles.wrapperImage}
-                            src={`http://127.0.0.1:8000${this.state.profile_pic}`}
+                            src={`${BACKEND_ORIGIN}${this.state.profile_pic}`}
                             width={200}
                             height={200}
                           />
@@ -894,7 +895,7 @@ class Profile extends Component {
                                 htmlFor="upload"
                                 className={styles.chan}
                                 style={{
-                                  backgroundImage: `url(http://127.0.0.1:8000${this.state.profile.profile_picture})`,
+                                  backgroundImage: `${BACKEND_ORIGIN}${this.state.profile.profile_picture})`,
                                   backgroundSize: "100% 100%",
                                   backgroundRepeat: "no-repeat",
                                 }}

@@ -5,7 +5,7 @@ import jwt_decode from "jwt-decode";
 import { Icon, Button, Message, Grid } from "semantic-ui-react";
 import styles from "../static/css/preview.module.css";
 import Router from "next/router";
-
+import BACKEND_ORIGIN from "../utils/domain";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, EffectFade } from "swiper";
@@ -48,7 +48,7 @@ class Preview extends Component {
   static async getInitialProps(props) {
     const { product } = props.query;
 
-    const response = await fetch("http://127.0.0.1:8000/api/product/", {
+    const response = await fetch(`${BACKEND_ORIGIN}/api/product/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -112,7 +112,7 @@ class Preview extends Component {
     console.log("This is data i need to post..");
     console.log(id, price, quantity, value, customization);
 
-    let check = await fetch("http://127.0.0.1:8000/api/cartExistOrNot/", {
+    let check = await fetch(`${BACKEND_ORIGIN}/api/cartExistOrNot/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -135,7 +135,7 @@ class Preview extends Component {
       // then hii itarukia on creating a new cart...
       // this request create a new cart..
       try {
-        let response = await fetch("http://127.0.0.1:8000/api/carts/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/carts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -273,7 +273,7 @@ class Preview extends Component {
   };
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -315,10 +315,10 @@ class Preview extends Component {
 
     if (imageInAction + 1 === this.props.data.get_urls.length) {
       console.log("Your the last image...");
-      this.imageConte.current.src = `http://127.0.0.1:8000${this.props.data.get_urls[0]}`;
+      this.imageConte.current.src = `${BACKEND_ORIGIN}${this.props.data.get_urls[0]}`;
     } else {
       console.log("Your not the last image...");
-      this.imageConte.current.src = `http://127.0.0.1:8000${
+      this.imageConte.current.src = `${BACKEND_ORIGIN}${
         this.props.data.get_urls[imageInAction + 1]
       }`;
     }
@@ -338,12 +338,12 @@ class Preview extends Component {
 
     if (imageInAction === 0) {
       console.log("Your the first image...");
-      this.imageConte.current.src = `http://127.0.0.1:8000${
+      this.imageConte.current.src = `${BACKEND_ORIGIN}${
         this.props.data.get_urls[this.props.data.get_urls.length - 1]
       }`;
     } else {
       console.log("Your not the first image...");
-      this.imageConte.current.src = `http://127.0.0.1:8000${
+      this.imageConte.current.src = `${BACKEND_ORIGIN}${
         this.props.data.get_urls[imageInAction - 1]
       }`;
     }
@@ -427,7 +427,7 @@ class Preview extends Component {
                   {this.props.data.get_urls.map((image) => (
                     <SwiperSlide>
                       <img
-                        src={`http://127.0.0.1:8000${image}`}
+                        src={`${BACKEND_ORIGIN}${image}`}
                         className={styles.ima}
                         // ref={this.imageConte}
                         height={280}
@@ -440,7 +440,7 @@ class Preview extends Component {
                 <img
                   className={styles.ima}
                   ref={this.imageConte}
-                  src={`http://127.0.0.1:8000${this.props.data.get_urls[0]}`}
+                  src={`${BACKEND_ORIGIN}${this.props.data.get_urls[0]}`}
                   height={280}
                 />
               )}
@@ -729,7 +729,7 @@ class Preview extends Component {
                   {this.props.data.get_urls.map((image) => (
                     <SwiperSlide>
                       <img
-                        src={`http://127.0.0.1:8000${image}`}
+                        src={`${BACKEND_ORIGIN}${image}`}
                         className={styles.ima}
                         // ref={this.imageConte}
                         height={350}
@@ -742,7 +742,7 @@ class Preview extends Component {
                 <img
                   className={styles.ima}
                   ref={this.imageConte}
-                  src={`http://127.0.0.1:8000${this.props.data.get_urls[0]}`}
+                  src={`${BACKEND_ORIGIN}${this.props.data.get_urls[0]}`}
                   height={350}
                 />
               )}
@@ -999,7 +999,7 @@ class Preview extends Component {
                   {this.props.data.get_urls.map((image) => (
                     <SwiperSlide>
                       <img
-                        src={`http://127.0.0.1:8000${image}`}
+                        src={`${BACKEND_ORIGIN}${image}`}
                         className={styles.ima}
                         // ref={this.imageConte}
                         height={450}
@@ -1012,7 +1012,7 @@ class Preview extends Component {
                 <img
                   className={styles.ima}
                   ref={this.imageConte}
-                  src={`http://127.0.0.1:8000${this.props.data.get_urls[0]}`}
+                  src={`${BACKEND_ORIGIN}${this.props.data.get_urls[0]}`}
                   height={450}
                 />
               )}

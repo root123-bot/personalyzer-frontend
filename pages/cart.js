@@ -2,19 +2,16 @@ import React, { Component } from "react";
 import styles from "../static/css/cart.module.css";
 import {
   Header,
-  Container,
   Icon,
   Button,
-  Image,
   Grid,
-  Item,
 } from "semantic-ui-react";
 import Head from "next/head";
 import jwt_decode from "jwt-decode";
 import Router from "next/router";
 import dynamic from "next/dynamic";
 import { LEFT } from "react-swipeable";
-import Media from "react-media";
+import BACKEND_ORIGIN from "../utils/domain";
 
 const MediaQuery = dynamic(
   () => {
@@ -95,7 +92,7 @@ class Cart extends Component {
       // Mpaka inafika hapa ujue user amekuwa aunthenticated...
       // so now user has logged in you need to fetch cart from the backend
 
-      let check = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+      let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -170,7 +167,7 @@ class Cart extends Component {
     // cartproducts state which is qs of all cp of that user... So nahisi
     // pia hapa kuna umuhimu pia wa ku-send user_id...
 
-    let response = await fetch("http://127.0.0.1:8000/api/cp_increase/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/cp_increase/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -219,7 +216,7 @@ class Cart extends Component {
     // Hii e.target.name ni flag ya ku-detect if the quantity is now 1 in order
     // to not count below 1
     if (parseInt(e.target.name) > 1 || parseInt(e.target.title) > 1) {
-      let response = await fetch("http://127.0.0.1:8000/api/cp_decrease/", {
+      let response = await fetch(`${BACKEND_ORIGIN}/api/cp_decrease/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -268,7 +265,7 @@ class Cart extends Component {
     // Here what we need to do is send both user_id and the cp_id to
     // delete from the cart....
 
-    let response = await fetch("http://127.0.0.1:8000/api/cp_remove/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/cp_remove/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -298,7 +295,7 @@ class Cart extends Component {
     e.preventDefault();
     console.log(this.state.user_id);
 
-    const response = await fetch("http://127.0.0.1:8000/api/flash_cart/", {
+    const response = await fetch(`${BACKEND_ORIGIN}/api/flash_cart/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -324,7 +321,7 @@ class Cart extends Component {
   };
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -399,7 +396,7 @@ class Cart extends Component {
                           >
                             <div className={styles.conte}>
                               <img
-                                src={`http://127.0.01:8000${product.get_urls[0]}`}
+                                src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                                 width={65}
                                 height={60}
                                 className={styles.proImg}
@@ -586,7 +583,7 @@ class Cart extends Component {
                             >
                               <MediaQuery maxWidth={450}>
                                 <img
-                                  src={`http://127.0.01:8000${product.get_urls[0]}`}
+                                  src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                                   width={75}
                                   height={70}
                                   className={styles.proImg}
@@ -594,7 +591,7 @@ class Cart extends Component {
                               </MediaQuery>
                               <MediaQuery minWidth={451}>
                                 <img
-                                  src={`http://127.0.01:8000${product.get_urls[0]}`}
+                                  src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                                   width={90}
                                   height={80}
                                   className={styles.proImg}
@@ -1072,7 +1069,7 @@ class Cart extends Component {
                               style={{ paddingTop: "0%" }}
                             >
                               <img
-                                src={`http://127.0.01:8000${product.get_urls[0]}`}
+                                src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                                 width={90}
                                 height={80}
                                 className={styles.proImg}
@@ -1646,7 +1643,7 @@ class Cart extends Component {
                                     <Grid.Column width={6}>
                                       <div className={styles.holder}>
                                         <img
-                                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                                           width={90}
                                           height={70}
                                           style={{

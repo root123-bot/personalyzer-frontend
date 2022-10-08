@@ -11,7 +11,7 @@ import {
 } from "semantic-ui-react";
 import Head from "next/head";
 import jwt_decode from "jwt-decode";
-
+import BACKEND_ORIGIN from "../utils/domain";
 import Router from "next/router";
 
 import dynamic from "next/dynamic";
@@ -99,7 +99,7 @@ class Order extends Component {
 
         // Kama amekuwa aunthenticated vilevile inabidi tufetch kama huyu jamaa na products or not...
 
-        let response = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -127,7 +127,7 @@ class Order extends Component {
           isAunthenticated: true,
         });
 
-        let response = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -199,7 +199,7 @@ class Order extends Component {
       return;
     }
 
-    const response = await fetch("http://127.0.0.1:8000/api/create_order/", {
+    const response = await fetch(`${BACKEND_ORIGIN}/api/create_order/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -249,7 +249,7 @@ class Order extends Component {
   }
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

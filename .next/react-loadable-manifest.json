@@ -1,110 +1,26 @@
 {
   "../components/NavBar.js -> react-responsive": {
-    "id": 1852,
+    "id": "../components/NavBar.js -> react-responsive",
     "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "../components/NavBar3.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "cart.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "done.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
+      "static/chunks/node_modules_react-responsive_dist_react-responsive_js.js"
     ]
   },
   "gender.js -> react-responsive": {
-    "id": 1852,
+    "id": "gender.js -> react-responsive",
     "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
+      "static/chunks/node_modules_react-responsive_dist_react-responsive_js.js"
     ]
   },
   "index.js -> react-responsive": {
-    "id": 1852,
+    "id": "index.js -> react-responsive",
     "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "jisajili.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "login.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "mpesa.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "order.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "output.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "preview.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "products.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "profile.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "reset.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "resetConfirm.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
+      "static/chunks/node_modules_react-responsive_dist_react-responsive_js.js"
     ]
   },
   "showRoom.js -> react-responsive": {
-    "id": 1852,
+    "id": "showRoom.js -> react-responsive",
     "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
-    ]
-  },
-  "tigopesa.js -> react-responsive": {
-    "id": 1852,
-    "files": [
-      "static/chunks/852.bac1df981fe62c5f.js"
+      "static/chunks/node_modules_react-responsive_dist_react-responsive_js.js"
     ]
   }
 }

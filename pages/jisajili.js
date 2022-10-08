@@ -5,6 +5,7 @@ import { Message, Icon, Button } from "semantic-ui-react";
 
 import dynamic from "next/dynamic";
 import Router from "next/router";
+import BACKEND_ORIGIN from "../utils/domain";
 
 const MediaQuery = dynamic(
   () => {
@@ -103,7 +104,7 @@ class Jisajili extends Component {
 
     // ishu iliyopo ni kwamba hii method inakuwa haijamaliza ila code za chini zinakuwa exected...
     // ko naona ni lazima tutumie await hapa tujaribu but mwanzo ilikataa...
-    fetch("http://localhost:8000/api/register/", {
+    fetch(`${BACKEND_ORIGIN}/api/register/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -180,7 +181,7 @@ class Jisajili extends Component {
           // WE should login this user
           console.log("WE SHOULD LOGIN THIS USER");
           console.log(this.state.username, this.state.password);
-          let weLive = await fetch("http://127.0.0.1:8000/api/token/", {
+          let weLive = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

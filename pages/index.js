@@ -16,6 +16,7 @@ import {
   Grid,
   Message,
 } from "semantic-ui-react";
+import BACKEND_ORIGIN from "../utils/domain";
 import styles from "../static/css/start.module.css";
 import Router from "next/router";
 
@@ -309,7 +310,7 @@ class Testing extends Component {
 
       console.log("Hey this is user id for you");
       console.log(user_id);
-      let check = await fetch("http://127.0.0.1:8000/api/cartExistOrNot/", {
+      let check = await fetch(`${BACKEND_ORIGIN}/api/cartExistOrNot/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -335,7 +336,7 @@ class Testing extends Component {
       if (output.status == false) {
        
         try {
-          let response = await fetch("http://127.0.0.1:8000/api/carts/", {
+          let response = await fetch(`${BACKEND_ORIGIN}/api/carts/`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -407,7 +408,7 @@ class Testing extends Component {
     this.executingTokenLogics();
 
     try {
-      let response = await fetch("http://127.0.0.1:8000/api/products/");
+      let response = await fetch(`${BACKEND_ORIGIN}/api/products/`);
 
       let data = await response.json();
       console.log("This is your response from the server about all products");
@@ -444,7 +445,7 @@ class Testing extends Component {
   }
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -2071,7 +2072,7 @@ class Testing extends Component {
                       <Card key={product.get_urls[0]}>
                         <img
                           height={220}
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                         />
                         <Card.Content>
                           <Card.Header as="h4">{`${new Intl.NumberFormat(
@@ -2144,7 +2145,7 @@ class Testing extends Component {
                       <Card key={product.get_urls[0]}>
                         <img
                           height={150}
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                         />
                         <Card.Content>
                           <Card.Header as="h4">{`${new Intl.NumberFormat(
@@ -2211,19 +2212,19 @@ class Testing extends Component {
                         <MediaQuery minWidth={577} maxWidth={630}>
                           <img
                             height={140}
-                            src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                            src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           />
                         </MediaQuery>
                         <MediaQuery minWidth={631} maxWidth={699}>
                           <img
                             height={150}
-                            src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                            src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           />
                         </MediaQuery>
                         <MediaQuery minWidth={700}>
                           <img
                             height={160}
-                            src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                            src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           />
                         </MediaQuery>
                         <Card.Content>
@@ -2291,13 +2292,13 @@ class Testing extends Component {
                         <MediaQuery minWidth={900} maxWidth={991}>
                           <img
                             height={140}
-                            src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                            src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           />
                         </MediaQuery>
                         <MediaQuery minWidth={992}>
                           <img
                             height={180}
-                            src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                            src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           />
                         </MediaQuery>
                         <Card.Content>
@@ -2352,7 +2353,7 @@ class Testing extends Component {
                       <Card key={product.get_urls[0]}>
                         <img
                           height={160}
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                         />
                         <Card.Content>
                           <Card.Header as="h4">{`${new Intl.NumberFormat(
@@ -2412,7 +2413,7 @@ class Testing extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -2422,7 +2423,7 @@ class Testing extends Component {
                         <img
                           className={styles.smaI}
                           key={url}
-                          src={`http://127.0.0.1:8000${url}`}
+                          src={`${BACKEND_ORIGIN}${url}`}
                           width={60}
                           height={50}
                           onClick={this.selectedOn}
@@ -2727,7 +2728,7 @@ class Testing extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -2737,7 +2738,7 @@ class Testing extends Component {
                         <img
                           className={styles.smaI}
                           key={url}
-                          src={`http://127.0.0.1:8000${url}`}
+                          src={`${BACKEND_ORIGIN}${url}`}
                           width={60}
                           height={50}
                           onClick={this.selectedOn}
@@ -3054,7 +3055,7 @@ class Testing extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -3068,7 +3069,7 @@ class Testing extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -3082,7 +3083,7 @@ class Testing extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -3093,7 +3094,7 @@ class Testing extends Component {
                       <img
                         className={styles.smaI}
                         key={url}
-                        src={`http://127.0.0.1:8000${url}`}
+                        src={`${BACKEND_ORIGIN}${url}`}
                         width={60}
                         height={50}
                         onClick={this.selectedOn}

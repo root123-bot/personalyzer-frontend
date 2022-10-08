@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Router from "next/router";
-import { Message, Segment } from "semantic-ui-react";
+import BACKEND_ORIGIN from "../utils/domain";
+import { Message } from "semantic-ui-react";
 
 const MediaQuery = dynamic(
   () => {
@@ -31,7 +32,7 @@ class ResetPassword extends Component {
       () => (this.succ.current.style.display = "none"),
       5000
     );
-    const response = await fetch("http://localhost:8000/api/password-reset/", {
+    const response = await fetch(`${BACKEND_ORIGIN}/api/password-reset/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -7,6 +7,8 @@ import Image from "next/image";
 import Router from "next/router";
 import jwt_decode from "jwt-decode";
 import Media from "react-media";
+import BACKEND_ORIGIN from "../utils/domain";
+
 // import MediaQuery from 'react-responsive'  // https://www.npmjs.com/package/react-responsive
 import dynamic from "next/dynamic";
 
@@ -120,7 +122,8 @@ export default (props) => {
         ? uploadData.append("name", jina)
         : uploadData.append("name", "431EFD#");
 
-      const response = await fetch("http://localhost:8000/api/edit/", {
+        
+      const response = await fetch(`${BACKEND_ORIGIN}/api/edit/`, {
         method: "POST",
         body: uploadData,
       });
@@ -177,11 +180,11 @@ export default (props) => {
       passInp.current.value = "";
       oldPassInp.current.value = "";
       return;
-    }
+    } 
 
     if (password.trim().length > 6 && oldPassword.trim().length > 0) {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/change_password/",
+        `${BACKEND_ORIGIN}/api/change_password/`,
         {
           method: "POST",
           headers: {
@@ -274,7 +277,7 @@ export default (props) => {
           return;
         }
 
-        let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+        let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -292,7 +295,7 @@ export default (props) => {
         // login user... How we do that is to query profile by that given user... You should make
         // query to the  ViewProfileAPiView...
 
-        let profile = await fetch("http://127.0.0.1:8000/api/profile/", {
+        let profile = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -323,7 +326,7 @@ export default (props) => {
         }
 
         // so now user has logged in you need to fetch cart from the backend
-        let check = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -364,7 +367,7 @@ export default (props) => {
         setLoginIn(true);
         let user = decodedAccessData.user_id;
         setUserId(user);
-        let profile = await fetch("http://127.0.0.1:8000/api/profile/", {
+        let profile = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -396,7 +399,7 @@ export default (props) => {
         }
 
         // so now user has logged in you need to fetch cart from the backend
-        let check = await fetch("http://127.0.0.1:8000/api/cartproducts/", {
+        let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -467,7 +470,7 @@ export default (props) => {
     // hii itatusaidia sana sio kila muda tu-send request
     // the server.. What you need to do is to get all and
     // store them inside that qs....
-    let pro = await fetch("http://127.0.0.1:8000/api/products/");
+    let pro = await fetch(`${BACKEND_ORIGIN}/api/products/`);
     let json = await pro.json();
     console.log("This is the json for you");
     console.log(json);
@@ -899,7 +902,7 @@ export default (props) => {
                               />
                             ) : (
                               <img
-                                src={`http://127.0.0.1:8000${profile}`}
+                                src={`${BACKEND_ORIGIN}${profile}`}
                                 alt="Profile"
                                 height={40}
                                 width={40}
@@ -1041,7 +1044,7 @@ export default (props) => {
                               />
                             ) : (
                               <img
-                                src={`http://127.0.0.1:8000${profile}`}
+                                src={`${BACKEND_ORIGIN}${profile}`}
                                 alt="Profile"
                                 height={40}
                                 width={40}
@@ -1183,7 +1186,7 @@ export default (props) => {
                               />
                             ) : (
                               <img
-                                src={`http://127.0.0.1:8000${profile}`}
+                                src={`${BACKEND_ORIGIN}${profile}`}
                                 alt="Profile"
                                 height={40}
                                 width={40}
@@ -1762,7 +1765,7 @@ export default (props) => {
                         {/* Hizi ndo query za media zote kama we don't have default picture.. Only for one which has custom image view this condition in lne of 127... */}
                         <MediaQuery maxWidth={350}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={60}
                             width={60}
@@ -1802,7 +1805,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={351} maxWidth={400}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={65}
                             width={65}
@@ -1842,7 +1845,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={401} maxWidth={450}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={65}
                             width={65}
@@ -1882,7 +1885,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={451} maxWidth={500}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={70}
                             width={70}
@@ -1922,7 +1925,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={501} maxWidth={576}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={75}
                             width={75}
@@ -1961,7 +1964,7 @@ export default (props) => {
                         </MediaQuery>
                         <MediaQuery minWidth={577} maxWidth={650}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={90}
                             width={90}
@@ -2003,7 +2006,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={651} maxWidth={700}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={90}
                             width={90}
@@ -2045,7 +2048,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={701} maxWidth={800}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={90}
                             width={90}
@@ -2087,7 +2090,7 @@ export default (props) => {
 
                         <MediaQuery minWidth={801} maxWidth={899}>
                           <img
-                            src={`http://127.0.0.1:8000${profile}`}
+                            src={`${BACKEND_ORIGIN}${profile}`}
                             alt="Profile"
                             height={100}
                             width={100}
@@ -2590,7 +2593,7 @@ export default (props) => {
                       ref={actualPreview}
                       htmlFor="upload"
                       style={{
-                        backgroundImage: `url(http://127.0.0.1:8000${profile})`,
+                        backgroundImage: `url(${BACKEND_ORIGIN}${profile})`,
                         backgroundSize: "100% 100%",
                         backgroundRepeat: "no-repeat",
                         border: "2px solid rgb(179, 177, 177)",

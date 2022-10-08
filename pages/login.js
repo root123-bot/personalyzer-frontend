@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import styles from "../static/css/login.module.css";
 import { Message, Icon } from "semantic-ui-react";
-import jwt_decode from "jwt-decode";
-
+import BACKEND_ORIGIN from "../utils/domain";
 import dynamic from "next/dynamic";
 import Router from "next/router";
 
@@ -69,7 +68,7 @@ class Login extends Component {
     }
 
     // otherwise send the request to login in server
-    let response = await fetch("http://127.0.0.1:8000/api/token/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

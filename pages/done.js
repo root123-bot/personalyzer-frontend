@@ -4,6 +4,8 @@ import jwt_decode from "jwt-decode";
 import dynamic from "next/dynamic";
 import Router from "next/router";
 import styles from "../static/css/done.module.css";
+import BACKEND_ORIGIN from "../utils/domain.js";
+
 const MediaQuery = dynamic(
   () => {
     return import("react-responsive");
@@ -91,7 +93,7 @@ class DonePlacingOrder extends Component {
   };
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -113,7 +115,7 @@ class DonePlacingOrder extends Component {
 
     const { unique_id } = props.query;
     // then fetch on the backend all the orderId
-    const order = await fetch("http://localhost:8000/api/placed_orders/");
+    const order = await fetch(`${BACKEND_ORIGIN}/api/placed_orders/`);
     const data = await order.json();
     console.log("This are all orders found ");
     console.log(data);

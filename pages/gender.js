@@ -13,7 +13,7 @@ import {
   Grid,
   Message,
 } from "semantic-ui-react";
-
+import BACKEND_ORIGIN from "../utils/domain";
 import jwt_decode from "jwt-decode";
 import Router from "next/router";
 import dynamic from "next/dynamic";
@@ -274,7 +274,7 @@ class ShowRoom extends Component {
 
       console.log("Hey this is user id for you");
       console.log(user_id);
-      let check = await fetch("http://127.0.0.1:8000/api/cartExistOrNot/", {
+      let check = await fetch(`${BACKEND_ORIGIN}/api/cartExistOrNot/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -300,7 +300,7 @@ class ShowRoom extends Component {
       if (output.status == false) {
    
         try {
-          let response = await fetch("http://127.0.0.1:8000/api/carts/", {
+          let response = await fetch(`${BACKEND_ORIGIN}/api/carts/`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -373,7 +373,7 @@ class ShowRoom extends Component {
     const { gender } = props.query;
     // then fetch all product of this category on the database...
 
-    let check = await fetch("http://127.0.0.1:8000/api/products_by_gender/", {
+    let check = await fetch(`${BACKEND_ORIGIN}/api/products_by_gender/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -399,7 +399,7 @@ class ShowRoom extends Component {
     this.executingTokenLogics();
 
     try {
-      let response = await fetch("http://127.0.0.1:8000/api/products/");
+      let response = await fetch(`${BACKEND_ORIGIN}/api/products/`);
 
       let data = await response.json();
       console.log("This is your response from the server about all products");
@@ -436,7 +436,7 @@ class ShowRoom extends Component {
   }
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -475,7 +475,7 @@ class ShowRoom extends Component {
                   {this.props.products.map((product) => (
                     <Card key={product.id}>
                       <img
-                        src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                        src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                         height={200}
                       />
                       <Card.Content>
@@ -536,13 +536,13 @@ class ShowRoom extends Component {
                     <Card key={product.id}>
                       <MediaQuery maxWidth={499}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={140}
                         />
                       </MediaQuery>
                       <MediaQuery minWidth={500}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={170}
                         />
                       </MediaQuery>
@@ -595,20 +595,20 @@ class ShowRoom extends Component {
                     <Card key={product.id}>
                       <MediaQuery maxWidth={650}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={140}
                         />
                       </MediaQuery>
                       <MediaQuery minWidth={651} maxWidth={700}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={150}
                         />
                       </MediaQuery>
 
                       <MediaQuery minWidth={701}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={170}
                         />
                       </MediaQuery>
@@ -661,7 +661,7 @@ class ShowRoom extends Component {
                   {this.props.products.map((product) => (
                     <Card key={product.id}>
                       <img
-                        src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                        src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                         height={150}
                       />
                       <Card.Content>
@@ -708,14 +708,14 @@ class ShowRoom extends Component {
                     <Card key={product.id}>
                       <MediaQuery maxWidth={1200}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={150}
                         />
                       </MediaQuery>
 
                       <MediaQuery minWidth={1201}>
                         <img
-                          src={`http://127.0.0.1:8000${product.get_urls[0]}`}
+                          src={`${BACKEND_ORIGIN}${product.get_urls[0]}`}
                           height={170}
                         />
                       </MediaQuery>
@@ -909,7 +909,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -919,7 +919,7 @@ class ShowRoom extends Component {
                         <img
                           className={styles.smaI}
                           key={url}
-                          src={`http://127.0.0.1:8000${url}`}
+                          src={`${BACKEND_ORIGIN}${url}`}
                           width={60}
                           height={50}
                           onClick={this.selectedOn}
@@ -1224,7 +1224,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -1234,7 +1234,7 @@ class ShowRoom extends Component {
                         <img
                           className={styles.smaI}
                           key={url}
-                          src={`http://127.0.0.1:8000${url}`}
+                          src={`${BACKEND_ORIGIN}${url}`}
                           width={60}
                           height={50}
                           onClick={this.selectedOn}
@@ -1550,7 +1550,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -1564,7 +1564,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -1578,7 +1578,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.imag}
                         ref={this.preview}
-                        src={`http://127.0.0.1:8000${this.state.selectedObjImages[0]}`}
+                        src={`${BACKEND_ORIGIN}${this.state.selectedObjImages[0]}`}
                         title="big pic"
                       />
                     </div>
@@ -1589,7 +1589,7 @@ class ShowRoom extends Component {
                       <img
                         className={styles.smaI}
                         key={url}
-                        src={`http://127.0.0.1:8000${url}`}
+                        src={`${BACKEND_ORIGIN}${url}`}
                         width={60}
                         height={50}
                         onClick={this.selectedOn}

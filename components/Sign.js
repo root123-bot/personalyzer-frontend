@@ -11,6 +11,7 @@ import {
 import styles from "../static/css/sign.module.css";
 import jwt_decode from "jwt-decode";
 import Router from 'next/router'
+import BACKEND_ORIGIN from "../utils/domain";
 
 class Sign extends Component {
   state = {
@@ -89,7 +90,7 @@ class Sign extends Component {
       return;
     }
 
-    fetch("http://localhost:8000/api/register/", {
+    fetch(`${BACKEND_ORIGIN}/api/register/`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -137,7 +138,7 @@ class Sign extends Component {
         this.timeout2 = setTimeout(async () => {
           // lets login the user...
           console.log("we should login this user");
-          let weLive = await fetch("http://127.0.0.1:8000/api/token/", {
+          let weLive = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -187,7 +188,7 @@ class Sign extends Component {
       return;
     }
 
-    let response = await fetch("http://127.0.0.1:8000/api/token/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

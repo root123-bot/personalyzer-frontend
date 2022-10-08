@@ -7,6 +7,8 @@ import Image from 'next/image'
 import Router from 'next/router'
 import jwt_decode from "jwt-decode"
 import Media from 'react-media';
+import BACKEND_ORIGIN from '../utils/domain';
+
 // import MediaQuery from 'react-responsive'  // https://www.npmjs.com/package/react-responsive
 import dynamic from 'next/dynamic'
 
@@ -77,7 +79,7 @@ export default props => {
                     return;
                 }
                 
-                let response = await fetch('http://127.0.0.1:8000/api/token/refresh/', {
+                let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -95,7 +97,7 @@ export default props => {
                 // query to the  ViewProfileAPiView...
                 
 
-                let profile = await fetch('http://127.0.0.1:8000/api/profile/', {
+                let profile = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -130,7 +132,7 @@ export default props => {
                 }
                 
                 // so now user has logged in you need to fetch cart from the backend
-                let check = await fetch('http://127.0.0.1:8000/api/cartproducts/', {
+                let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -174,7 +176,7 @@ export default props => {
                 let user = decodedAccessData.user_id;
 
                
-                let profile = await fetch('http://127.0.0.1:8000/api/profile/', {
+                let profile = await fetch(`${BACKEND_ORIGIN}/api/profile/`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -208,7 +210,7 @@ export default props => {
                 }
 
                 // so now user has logged in you need to fetch cart from the backend
-                let check = await fetch('http://127.0.0.1:8000/api/cartproducts/', {
+                let check = await fetch(`${BACKEND_ORIGIN}/api/cartproducts/`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -271,7 +273,7 @@ export default props => {
         // hii itatusaidia sana sio kila muda tu-send request 
         // the server.. What you need to do is to get all and 
         // store them inside that qs....
-        let pro = await fetch('http://127.0.0.1:8000/api/products/');
+        let pro = await fetch(`${BACKEND_ORIGIN}/api/products/`);
         let json = await pro.json()
         console.log('This is the json for you')
         console.log(json)
@@ -684,7 +686,7 @@ export default props => {
                                                         <img src='/static/images/user-grey.png' alt="Profile" height={40} width={40} className = {styles.proPic} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
 
                                                     ) : (
-                                                        <img src={`http://127.0.0.1:8000${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
+                                                        <img src={`${BACKEND_ORIGIN}${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
                                                     )
                                                     
                                                 ) : (
@@ -758,7 +760,7 @@ export default props => {
                                                         <img src='/static/images/user-grey.png' alt="Profile" height={40} width={40} className = {styles.proPic} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
 
                                                     ) : (
-                                                        <img src={`http://127.0.0.1:8000${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
+                                                        <img src={`${BACKEND_ORIGIN}${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
                                                     )
                                                     
                                                 ) : (
@@ -833,7 +835,7 @@ export default props => {
                                                         <img src='/static/images/user-grey.png' alt="Profile" height={40} width={40} className = {styles.proPic} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
 
                                                     ) : (
-                                                        <img src={`http://127.0.0.1:8000${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
+                                                        <img src={`${BACKEND_ORIGIN}${profile}`} alt="Profile" height={40} width={40} className = {styles.customPro} onMouseOver={() => profileRef.current.style.display='block'} onMouseOut={() => profileRef.current.style.display = 'none'} />    
                                                     )
                                                     
                                                 ) : (

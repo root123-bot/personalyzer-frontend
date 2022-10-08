@@ -9,11 +9,11 @@ import {
   Header,
   Message,
 } from "semantic-ui-react";
+import BACKEND_ORIGIN from "../utils/domain";
 import styles from "../static/css/register.module.css";
 import jwt_decode from "jwt-decode";
 // import { Router } from "next/router";
 import { Router } from "../routes";
-import { Link } from "../routes";
 
 // Hii register page if the user want to visit it it should check if the user has been logged in if he's loged in then
 // you should redirect him to the profile like what genius do... So for user to visit this register page we should make
@@ -108,7 +108,7 @@ class Register extends Component {
   }
 
   updateToken = async (refreshToken) => {
-    let response = await fetch("http://127.0.0.1:8000/api/token/refresh/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -188,7 +188,7 @@ class Register extends Component {
       return;
     }
 
-    fetch("http://localhost:8000/api/register/", {
+    fetch(`${BACKEND_ORIGIN}/api/register/`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -235,7 +235,7 @@ class Register extends Component {
         this.errorContainer1.current.style.display = "block";
         this.timeout2 = setTimeout(async () => {
           console.log("we should login this user");
-          let weLive = await fetch("http://127.0.0.1:8000/api/token/", {
+          let weLive = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -295,7 +295,7 @@ class Register extends Component {
     console.log(this.state.email, this.state.nywila);
 
     // sasa hapa ni ishu ya
-    let response = await fetch("http://127.0.0.1:8000/api/token/", {
+    let response = await fetch(`${BACKEND_ORIGIN}/api/token/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
