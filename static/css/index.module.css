@@ -281,7 +281,6 @@
 }
 
 .foo {
-  box-sizing: border-box;
   width: 100%;
   color: wheat;
   background: rgb(102, 102, 102);
@@ -296,8 +295,6 @@
 /* Hii ndo ya kuja ku-set baadae ili footer ikae chini kabisa.
 https://www.youtube.com/watch?v=US_3XvufMLU... */
 .main {
-  box-sizing: border-box;
-  width: 100%;
   min-height: 100vh;
 }
 
