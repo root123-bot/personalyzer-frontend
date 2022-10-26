@@ -16,8 +16,8 @@
   "/register": "pages/register.js",
   "/reset": "pages/reset.html",
   "/resetConfirm": "pages/resetConfirm.js",
-  "/showRoom": "pages/showRoom.js",
   "/tigopesa": "pages/tigopesa.html",
+  "/showRoom": "pages/showRoom.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

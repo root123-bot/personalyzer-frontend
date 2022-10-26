@@ -3215,14 +3215,7 @@ export default (props) => {
           </div>
         </MediaQuery>
       </footer>
-      <style jsx global>{`
-          body {
-            width: 100vw;
-            height: 100vh;
-            margin: 0px;
-            padding: 0px;
-          }
-        `}</style>
+      
     </div>
   );
 };
