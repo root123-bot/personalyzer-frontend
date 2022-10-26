@@ -333,8 +333,8 @@ class Cart extends Component {
     localStorage.setItem("authTokens", JSON.stringify(data));
   };
 
-  async componentDidMount() {
-    await this.fetchSomeCartProduct();
+  componentDidMount() {
+    this.fetchSomeCartProduct();
   }
 
   // Mimi nimechagua kwenye hii carti nisiwe na navBar.. Coz navbar ina require vitu vingi
