@@ -600,16 +600,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
     }, []);
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         onClick: filterToggleOff,
-        className: "jsx-9933c6751ec74e2d",
+        className: "jsx-f07d585b3cfb870b",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Container, {
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().main) || ""),
+                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().main) || ""),
                     children: [
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_4___default()), {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                                    className: "jsx-9933c6751ec74e2d",
+                                    className: "jsx-f07d585b3cfb870b",
                                     children: "PERSONALYZER"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
@@ -617,38 +617,38 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
                                     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
                                     crossorigin: "anonymous",
-                                    className: "jsx-9933c6751ec74e2d"
+                                    className: "jsx-f07d585b3cfb870b"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                                     rel: "stylesheet",
                                     href: "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css",
-                                    className: "jsx-9933c6751ec74e2d"
+                                    className: "jsx-f07d585b3cfb870b"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                                     name: "viewport",
                                     content: "width=device-width, initial-scale=1.0",
-                                    className: "jsx-9933c6751ec74e2d"
+                                    className: "jsx-f07d585b3cfb870b"
                                 })
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             ref: topDiv,
-                            className: "jsx-9933c6751ec74e2d",
+                            className: "jsx-f07d585b3cfb870b",
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().top) || ""),
+                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().top) || ""),
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().sectionStyle) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().sectionStyle) || ""),
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().behaveLikenav) || ""),
+                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().behaveLikenav) || ""),
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                         minWidth: 200,
                                                         maxWidth: 576,
                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                                                             onSubmit: handleSubmit,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                                     maxWidth: 450,
@@ -656,12 +656,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                                 pathname: "/"
                                                                             }),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "../static/images/popo1.png",
                                                                             width: 30,
                                                                             height: 28,
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 }),
@@ -671,11 +671,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                                 pathname: "/"
                                                                             }),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "../static/images/logo.png",
                                                                             width: 90,
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 }),
@@ -684,7 +684,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     type: "text",
                                                                     placeholder: "Type and search...",
                                                                     onChange: changeAttrs,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                     src: "/static/images/magnifying-glass.png",
@@ -693,12 +693,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     width: 20,
                                                                     title: "search",
                                                                     onClick: handleSubmit,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
                                                                 }),
                                                                 amount ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: [
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 src: "/static/images/shopping-cart.png",
@@ -707,11 +707,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 width: 20,
                                                                                 title: "Cart",
                                                                                 ref: kapu,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
                                                                             }),
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 ref: kapuLabel,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
                                                                                 children: amount
                                                                             })
                                                                         ]
@@ -719,7 +719,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "/static/images/shopping-cart.png",
                                                                             alt: "search-icon",
@@ -727,18 +727,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             width: 20,
                                                                             title: "Cart",
                                                                             ref: kapu,
-                                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
+                                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
                                                                         })
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     onClick: toggleSidebarOn,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bar) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bar) || ""),
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "../static/images/paragraph.png",
                                                                         width: 22,
                                                                         height: 22,
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     })
                                                                 })
                                                             ]
@@ -750,17 +750,17 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         children: [
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                                                                 onSubmit: handleSubmit,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                                 pathname: "/"
                                                                             }),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "../static/images/logo.png",
                                                                             width: 108,
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
@@ -768,7 +768,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         type: "text",
                                                                         placeholder: "Type and search...",
                                                                         onChange: changeAttrs,
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "/static/images/magnifying-glass.png",
@@ -777,12 +777,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 20,
                                                                         title: "search",
                                                                         onClick: handleSubmit,
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
                                                                     }),
                                                                     amount ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                         route: "/cart",
                                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                                            className: "jsx-9933c6751ec74e2d",
+                                                                            className: "jsx-f07d585b3cfb870b",
                                                                             children: [
                                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                     src: "/static/images/shopping-cart.png",
@@ -791,11 +791,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                     width: 23,
                                                                                     title: "Cart",
                                                                                     ref: kapu,
-                                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
+                                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
                                                                                 }),
                                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                     ref: kapuLabel,
-                                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
+                                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
                                                                                     children: amount
                                                                                 })
                                                                             ]
@@ -803,7 +803,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                         route: "/cart",
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                            className: "jsx-9933c6751ec74e2d",
+                                                                            className: "jsx-f07d585b3cfb870b",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 src: "/static/images/shopping-cart.png",
                                                                                 alt: "search-icon",
@@ -811,18 +811,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 width: 23,
                                                                                 title: "Cart",
                                                                                 ref: kapu,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().shop) || "")
                                                                             })
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         onClick: toggleSidebarOn,
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bar) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bar) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "../static/images/paragraph.png",
                                                                             width: 20,
                                                                             height: 20,
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 ]
@@ -835,17 +835,17 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         maxWidth: 1199,
                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                                                             onSubmit: handleSubmit,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                     onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                             pathname: "/"
                                                                         }),
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "../static/images/logo.png",
                                                                         width: 120,
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
@@ -854,7 +854,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     placeholder: "Search by jewely/product name...",
                                                                     list: "browsers",
                                                                     onChange: changeAttrs,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                     src: "/static/images/magnifying-glass.png",
@@ -863,7 +863,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     width: 28,
                                                                     title: "Search",
                                                                     onClick: handleSubmit,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
                                                                 }),
                                                                 props.isAunthenticated ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/profile/",
@@ -874,7 +874,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: `${_utils_domain__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z}${profile}`,
                                                                         alt: "Profile",
@@ -882,7 +882,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "/static/images/user-grey.png",
                                                                         alt: "Profile",
@@ -890,12 +890,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     })
                                                                 }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/register/",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Button, {
                                                                             content: "Login/Register",
                                                                             color: "black",
@@ -907,7 +907,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: [
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 src: "/static/images/shopping-cart.png",
@@ -916,11 +916,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 width: 25,
                                                                                 title: "Cart",
                                                                                 ref: kapu,
-                                                                                className: "jsx-9933c6751ec74e2d"
+                                                                                className: "jsx-f07d585b3cfb870b"
                                                                             }),
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 ref: kapuLabel,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
                                                                                 children: amount
                                                                             })
                                                                         ]
@@ -929,14 +929,14 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "/static/images/shopping-cart.png",
                                                                             alt: "search-icon",
                                                                             height: 25,
                                                                             width: 25,
                                                                             title: "Cart",
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 })
@@ -948,17 +948,17 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         maxWidth: 1600,
                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                                                             onSubmit: handleSubmit,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                     onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                             pathname: "/"
                                                                         }),
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "../static/images/logo.png",
                                                                         width: 120,
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
@@ -967,7 +967,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     placeholder: "Search by jewely/product name...",
                                                                     list: "browsers",
                                                                     onChange: changeAttrs,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                     src: "/static/images/magnifying-glass.png",
@@ -976,7 +976,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     width: 33,
                                                                     title: "Search",
                                                                     onClick: handleSubmit,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
                                                                 }),
                                                                 props.isAunthenticated ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/profile/",
@@ -987,7 +987,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: `${_utils_domain__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z}${profile}`,
                                                                         alt: "Profile",
@@ -995,7 +995,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "/static/images/user-grey.png",
                                                                         alt: "Profile",
@@ -1003,12 +1003,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     })
                                                                 }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/register/",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Button, {
                                                                             content: "Login/Register",
                                                                             color: "black",
@@ -1020,7 +1020,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: [
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 src: "/static/images/shopping-cart.png",
@@ -1029,11 +1029,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 width: 33,
                                                                                 title: "Cart",
                                                                                 ref: kapu,
-                                                                                className: "jsx-9933c6751ec74e2d"
+                                                                                className: "jsx-f07d585b3cfb870b"
                                                                             }),
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 ref: kapuLabel,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
                                                                                 children: amount
                                                                             })
                                                                         ]
@@ -1042,14 +1042,14 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "/static/images/shopping-cart.png",
                                                                             alt: "search-icon",
                                                                             height: 33,
                                                                             width: 33,
                                                                             title: "Cart",
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 })
@@ -1060,17 +1060,17 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         minWidth: 1601,
                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                                                             onSubmit: handleSubmit,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().inlineForm) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                     onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                             pathname: "/"
                                                                         }),
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().brand) || ""),
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "../static/images/logo.png",
                                                                         width: 120,
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
@@ -1079,7 +1079,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     placeholder: "Search by jewely/product name...",
                                                                     list: "browsers",
                                                                     onChange: changeAttrs,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().search) || "")
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                     src: "/static/images/magnifying-glass.png",
@@ -1088,7 +1088,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     width: 33,
                                                                     title: "Search",
                                                                     onClick: handleSubmit,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().searchIcon) || "")
                                                                 }),
                                                                 props.isAunthenticated ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/profile/",
@@ -1099,7 +1099,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: `${_utils_domain__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z}${profile}`,
                                                                         alt: "Profile",
@@ -1107,7 +1107,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().customPro) || "")
                                                                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                         src: "/static/images/user-grey.png",
                                                                         alt: "Profile",
@@ -1115,12 +1115,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                         width: 40,
                                                                         onMouseOver: ()=>profileRef.current.style.display = "block",
                                                                         onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || "")
                                                                     })
                                                                 }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_routes__WEBPACK_IMPORTED_MODULE_5__.Link, {
                                                                     route: "/register/",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().proPic) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Button, {
                                                                             content: "Login/Register",
                                                                             color: "black",
@@ -1132,7 +1132,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: [
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 src: "/static/images/shopping-cart.png",
@@ -1141,11 +1141,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 width: 33,
                                                                                 title: "Cart",
                                                                                 ref: kapu,
-                                                                                className: "jsx-9933c6751ec74e2d"
+                                                                                className: "jsx-f07d585b3cfb870b"
                                                                             }),
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 ref: kapuLabel,
-                                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
+                                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().amo) || ""),
                                                                                 children: amount
                                                                             })
                                                                         ]
@@ -1154,14 +1154,14 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     route: "/cart",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         onClick: ()=>console.log("Hello world how are you!"),
-                                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
+                                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cartIcon) || ""),
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                             src: "/static/images/shopping-cart.png",
                                                                             alt: "search-icon",
                                                                             height: 33,
                                                                             width: 33,
                                                                             title: "Cart",
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     })
                                                                 })
@@ -1174,7 +1174,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             id: "browsers",
                                             ref: list,
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().dlist) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().dlist) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                     minWidth: 200,
@@ -1182,23 +1182,23 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     children: filteredQs.filter((value, index)=>index < 6).map((value, index)=>value.includes("=>") ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                             id: value,
                                                             onClick: searchFilter,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     id: value,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cat) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cat) || ""),
                                                                     children: `${value.substr(0, value.indexOf("=")).substr(0, 12)}...`
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     id: value,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().tit) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().tit) || ""),
                                                                     children: `${value.substr(value.indexOf(">") + 1)}`
                                                                 })
                                                             ]
                                                         }, index) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                             id: value,
                                                             onClick: searchFilter,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
                                                             children: value
                                                         }, index))
                                                 }),
@@ -1207,23 +1207,23 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     children: filteredQs.filter((value, index)=>index < 10).map((value, index)=>value.includes("=>") ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                             id: value,
                                                             onClick: searchFilter,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     id: value,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cat) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().cat) || ""),
                                                                     children: `${value.substr(0, value.indexOf("=")).substr(0, 12)}...`
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     id: value,
-                                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().tit) || ""),
+                                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().tit) || ""),
                                                                     children: `${value.substr(value.indexOf(">") + 1)}`
                                                                 })
                                                             ]
                                                         }, index) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                             id: value,
                                                             onClick: searchFilter,
-                                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
+                                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().query) || ""),
                                                             children: value
                                                         }, index))
                                                 })
@@ -1231,29 +1231,29 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             ref: profileRef,
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().toggle) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().toggle) || ""),
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 onMouseOver: ()=>profileRef.current.style.display = "block",
                                                 onMouseOut: ()=>profileRef.current.style.display = "none",
-                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().toggle1) || ""),
+                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().toggle1) || ""),
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                         onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                 pathname: "/profile"
                                                             }),
-                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
+                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
                                                         children: "Profile"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                         onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push({
                                                                 pathname: "/cart"
                                                             }),
-                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
+                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
                                                         children: "My Cart"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                         onClick: onLogout,
-                                                        className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
+                                                        className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().int) || ""),
                                                         children: "Logout"
                                                     })
                                                 ]
@@ -1269,10 +1269,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflow: "auto"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().sidebar) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().sidebar) || ""),
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().ss) || ""),
+                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().ss) || ""),
                                     children: [
                                         props.isAunthenticated ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                             children: hasProfile ? hasDefaultProfile ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -1280,7 +1280,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     position: "relative"
                                                 },
                                                 ref: showProfile,
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(MediaQuery, {
                                                         maxWidth: 350,
@@ -1290,7 +1290,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 60,
                                                                 width: 60,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1298,7 +1298,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1306,7 +1306,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1315,7 +1315,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             border: "2px solid grey",
                                                                             background: "white"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1331,7 +1331,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1339,7 +1339,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1347,7 +1347,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1356,7 +1356,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             border: "2px solid grey",
                                                                             background: "white"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1372,7 +1372,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1380,7 +1380,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1388,7 +1388,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1397,7 +1397,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             border: "2px solid grey",
                                                                             background: "white"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1413,7 +1413,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 70,
                                                                 width: 70,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1421,7 +1421,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1429,7 +1429,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1438,7 +1438,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             border: "2px solid grey",
                                                                             background: "white"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1454,7 +1454,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 75,
                                                                 width: 75,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1462,7 +1462,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1470,7 +1470,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1479,7 +1479,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             border: "2px solid grey",
                                                                             background: "white"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1495,7 +1495,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1503,7 +1503,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24.5%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1511,7 +1511,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1522,7 +1522,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1538,7 +1538,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1546,7 +1546,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "23%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1554,7 +1554,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1565,7 +1565,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1581,7 +1581,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1589,7 +1589,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1597,7 +1597,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1608,7 +1608,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1624,7 +1624,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 100,
                                                                 width: 100,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1632,7 +1632,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1640,7 +1640,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 20 ? name.substr(0, 20) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1651,7 +1651,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1661,7 +1661,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                         minWidth: 900,
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "Out of screen width bound"
                                                         })
                                                     })
@@ -1671,7 +1671,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     position: "relative"
                                                 },
                                                 ref: showProfile,
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(MediaQuery, {
                                                         maxWidth: 350,
@@ -1681,7 +1681,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 60,
                                                                 width: 60,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1689,7 +1689,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1697,7 +1697,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1707,7 +1707,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1723,7 +1723,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1731,7 +1731,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1739,7 +1739,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1749,7 +1749,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1765,7 +1765,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1773,7 +1773,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1781,7 +1781,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1791,7 +1791,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1807,7 +1807,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 70,
                                                                 width: 70,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1815,7 +1815,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1823,7 +1823,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1833,7 +1833,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1849,7 +1849,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 75,
                                                                 width: 75,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1857,7 +1857,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1865,7 +1865,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1875,7 +1875,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1891,7 +1891,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1899,7 +1899,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24.5%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1907,7 +1907,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1919,7 +1919,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1935,7 +1935,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1943,7 +1943,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "23%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1951,7 +1951,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -1963,7 +1963,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -1979,7 +1979,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -1987,7 +1987,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -1995,7 +1995,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2007,7 +2007,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2023,7 +2023,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 100,
                                                                 width: 100,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2031,7 +2031,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2039,7 +2039,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 20 ? name.substr(0, 20) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2051,7 +2051,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2061,7 +2061,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                         minWidth: 900,
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "Out of screen width bound"
                                                         })
                                                     })
@@ -2071,7 +2071,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     position: "relative"
                                                 },
                                                 ref: showProfile,
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(MediaQuery, {
                                                         maxWidth: 350,
@@ -2081,7 +2081,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 60,
                                                                 width: 60,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2089,7 +2089,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2097,7 +2097,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2107,7 +2107,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2123,7 +2123,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2131,7 +2131,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "30%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2139,7 +2139,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2149,7 +2149,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2165,7 +2165,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 65,
                                                                 width: 65,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2173,7 +2173,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2181,7 +2181,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2191,7 +2191,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2207,7 +2207,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 70,
                                                                 width: 70,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2215,7 +2215,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "26%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2223,7 +2223,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 13 ? name.substr(0, 12) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2233,7 +2233,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2249,7 +2249,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 75,
                                                                 width: 75,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2257,7 +2257,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2265,7 +2265,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "8%",
                                                                             fontSize: "120%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2275,7 +2275,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             background: "white"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2291,7 +2291,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2299,7 +2299,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "24.5%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2307,7 +2307,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2319,7 +2319,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2335,7 +2335,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2343,7 +2343,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "23%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2351,7 +2351,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2363,7 +2363,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2379,7 +2379,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 90,
                                                                 width: 90,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2387,7 +2387,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2395,7 +2395,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 18 ? name.substr(0, 18) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2407,7 +2407,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2423,7 +2423,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 alt: "Profile",
                                                                 height: 100,
                                                                 width: 100,
-                                                                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
+                                                                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().phoneProfile) || "")
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 style: {
@@ -2431,7 +2431,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     top: "5%",
                                                                     left: "20%"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         style: {
@@ -2439,7 +2439,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             paddingBottom: "12%",
                                                                             fontSize: "140%"
                                                                         },
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: name.length > 20 ? name.substr(0, 20) + "..." : name
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
@@ -2451,7 +2451,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             whiteSpace: "nowrap"
                                                                         },
                                                                         onClick: showChangeProfile,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Edit Profile"
                                                                     })
                                                                 ]
@@ -2461,7 +2461,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                         minWidth: 900,
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "Out of screen width bound"
                                                         })
                                                     })
@@ -2469,7 +2469,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                             })
                                         }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: "You need to login to access your profile!"
                                             })
                                         }),
@@ -2480,17 +2480,17 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 overflowX: "hidden"
                                             },
                                             ref: changeProfileForm,
-                                            className: "jsx-9933c6751ec74e2d",
+                                            className: "jsx-f07d585b3cfb870b",
                                             children: [
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "USERNAME:"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                            className: "jsx-9933c6751ec74e2d"
+                                                            className: "jsx-f07d585b3cfb870b"
                                                         }),
                                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(MediaQuery, {
                                                             maxWidth: 400,
@@ -2502,10 +2502,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     },
                                                                     ref: userNameRef,
                                                                     onChange: (e)=>setJina(e.target.value),
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 })
                                                             ]
                                                         }),
@@ -2520,10 +2520,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     },
                                                                     ref: userNameRef,
                                                                     onChange: (e)=>setJina(e.target.value),
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 })
                                                             ]
                                                         }),
@@ -2538,10 +2538,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     },
                                                                     ref: userNameRef,
                                                                     onChange: (e)=>setJina(e.target.value),
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 })
                                                             ]
                                                         }),
@@ -2555,10 +2555,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     },
                                                                     ref: userNameRef,
                                                                     onChange: (e)=>setJina(e.target.value),
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                    className: "jsx-9933c6751ec74e2d"
+                                                                    className: "jsx-f07d585b3cfb870b"
                                                                 })
                                                             ]
                                                         }),
@@ -2566,11 +2566,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                             style: {
                                                                 marginTop: "3%"
                                                             },
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "CHANGE AVATAR:"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                            className: "jsx-9933c6751ec74e2d"
+                                                            className: "jsx-f07d585b3cfb870b"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                             accept: "images/*",
@@ -2580,7 +2580,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                             style: {
                                                                 display: "none"
                                                             },
-                                                            className: "jsx-9933c6751ec74e2d"
+                                                            className: "jsx-f07d585b3cfb870b"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
                                                             ref: actualPreview,
@@ -2597,12 +2597,12 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 justifyContent: "center",
                                                                 cursor: "pointer"
                                                             },
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/imag.png",
                                                                 width: 25,
                                                                 height: 25,
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             })
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2617,7 +2617,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: "Update Profile"
                                                             })
                                                         }),
@@ -2634,7 +2634,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: "Update Profile"
                                                             })
                                                         }),
@@ -2651,7 +2651,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: "Update Profile"
                                                             })
                                                         }),
@@ -2667,7 +2667,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: "Update Profile"
                                                             })
                                                         })
@@ -2683,20 +2683,20 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         color: "whitesmoke"
                                                     },
                                                     onClick: redeamMeToProfile,
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Back"
                                                 })
                                             ]
                                         }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {}),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("hr", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().hrulb) || "")
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().hrulb) || "")
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             style: {
                                                 cursor: "pointer"
                                             },
                                             onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push("/cart"),
-                                            className: "jsx-9933c6751ec74e2d",
+                                            className: "jsx-f07d585b3cfb870b",
                                             children: "My Cart"
                                         }),
                                         props.isAunthenticated ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
@@ -2704,7 +2704,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 cursor: "pointer"
                                             },
                                             onClick: onLogout,
-                                            className: "jsx-9933c6751ec74e2d",
+                                            className: "jsx-f07d585b3cfb870b",
                                             children: "Logout"
                                         }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                             children: [
@@ -2713,7 +2713,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         cursor: "pointer"
                                                     },
                                                     onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push("/login"),
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Login"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
@@ -2721,7 +2721,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         cursor: "pointer"
                                                     },
                                                     onClick: ()=>next_router__WEBPACK_IMPORTED_MODULE_7___default().push("/jisajili"),
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Register"
                                                 })
                                             ]
@@ -2732,10 +2732,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         border: "1px solid grey"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d"
+                                                    className: "jsx-f07d585b3cfb870b"
                                                 }),
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                             style: {
@@ -2743,7 +2743,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                             },
                                                             ref: heade,
                                                             onClick: changeNyila,
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: "Change password"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -2751,16 +2751,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 display: "none"
                                                             },
                                                             ref: changePass,
-                                                            className: "jsx-9933c6751ec74e2d",
+                                                            className: "jsx-f07d585b3cfb870b",
                                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
-                                                                className: "jsx-9933c6751ec74e2d",
+                                                                className: "jsx-f07d585b3cfb870b",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "Old password:"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                                         maxWidth: 400,
@@ -2771,7 +2771,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "90%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2784,7 +2784,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "70%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2797,7 +2797,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "55%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2809,18 +2809,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "45%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: "New password:"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                                                                         maxWidth: 400,
@@ -2831,7 +2831,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "90%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2844,7 +2844,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "70%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2857,7 +2857,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "55%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
@@ -2869,11 +2869,11 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             style: {
                                                                                 width: "45%"
                                                                             },
-                                                                            className: "jsx-9933c6751ec74e2d"
+                                                                            className: "jsx-f07d585b3cfb870b"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                        className: "jsx-9933c6751ec74e2d"
+                                                                        className: "jsx-f07d585b3cfb870b"
                                                                     }),
                                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                         style: {
@@ -2881,13 +2881,13 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                             display: "none"
                                                                         },
                                                                         ref: err,
-                                                                        className: "jsx-9933c6751ec74e2d",
+                                                                        className: "jsx-f07d585b3cfb870b",
                                                                         children: [
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                                 ref: imageToDisappear,
                                                                                 src: "../static/images/warning.png",
                                                                                 width: 12,
-                                                                                className: "jsx-9933c6751ec74e2d"
+                                                                                className: "jsx-f07d585b3cfb870b"
                                                                             }),
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 style: {
@@ -2895,7 +2895,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                     marginLeft: "2%"
                                                                                 },
                                                                                 ref: spanToChange,
-                                                                                className: "jsx-9933c6751ec74e2d",
+                                                                                className: "jsx-f07d585b3cfb870b",
                                                                                 children: errorMessage
                                                                             })
                                                                         ]
@@ -2910,7 +2910,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 marginBottom: "3%"
                                                                             },
                                                                             onClick: changePassword,
-                                                                            className: "jsx-9933c6751ec74e2d" + " " + "btn btn-primary",
+                                                                            className: "jsx-f07d585b3cfb870b" + " " + "btn btn-primary",
                                                                             children: "Change"
                                                                         })
                                                                     }),
@@ -2925,7 +2925,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 marginBottom: "3%"
                                                                             },
                                                                             onClick: changePassword,
-                                                                            className: "jsx-9933c6751ec74e2d" + " " + "btn btn-primary",
+                                                                            className: "jsx-f07d585b3cfb870b" + " " + "btn btn-primary",
                                                                             children: "Change"
                                                                         })
                                                                     }),
@@ -2940,7 +2940,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 marginBottom: "3%"
                                                                             },
                                                                             onClick: changePassword,
-                                                                            className: "jsx-9933c6751ec74e2d" + " " + "btn btn-primary",
+                                                                            className: "jsx-f07d585b3cfb870b" + " " + "btn btn-primary",
                                                                             children: "Change"
                                                                         })
                                                                     }),
@@ -2954,7 +2954,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                                 marginBottom: "3%"
                                                                             },
                                                                             onClick: changePassword,
-                                                                            className: "jsx-9933c6751ec74e2d" + " " + "btn btn-primary",
+                                                                            className: "jsx-f07d585b3cfb870b" + " " + "btn btn-primary",
                                                                             children: "Change"
                                                                         })
                                                                     })
@@ -2969,7 +2969,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     onClick: toggleSidebarOff,
-                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().close) || ""),
+                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().close) || ""),
                                     children: "\xd7"
                                 })
                             ]
@@ -2978,7 +2978,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                 })
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("footer", {
-                className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().foo) || ""),
+                className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().foo) || ""),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MediaQuery, {
                         minWidth: 200,
@@ -2987,15 +2987,15 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflowX: "hidden"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
+                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                         src: "../static/images/pin.png",
@@ -3004,7 +3004,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         style: {
                                                             marginRight: "10px"
                                                         },
-                                                        className: "jsx-9933c6751ec74e2d"
+                                                        className: "jsx-f07d585b3cfb870b"
                                                     }),
                                                     "Kariakoo, Dar es salaam."
                                                 ]
@@ -3014,9 +3014,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                             style: {
                                                 paddingTop: "1%"
                                             },
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                         src: "../static/images/tc2.png",
@@ -3025,7 +3025,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         style: {
                                                             marginRight: "10px"
                                                         },
-                                                        className: "jsx-9933c6751ec74e2d"
+                                                        className: "jsx-f07d585b3cfb870b"
                                                     }),
                                                     "+255756144060."
                                                 ]
@@ -3035,9 +3035,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                             style: {
                                                 paddingTop: "1%"
                                             },
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                className: "jsx-9933c6751ec74e2d",
+                                                className: "jsx-f07d585b3cfb870b",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                         src: "../static/images/email.png",
@@ -3046,7 +3046,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                         style: {
                                                             marginRight: "10px"
                                                         },
-                                                        className: "jsx-9933c6751ec74e2d"
+                                                        className: "jsx-f07d585b3cfb870b"
                                                     }),
                                                     "support@personalizer.co.tz"
                                                 ]
@@ -3055,16 +3055,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
+                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: "jsx-9933c6751ec74e2d",
+                                            className: "jsx-f07d585b3cfb870b",
                                             children: "Follow Us"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             target: "_blank",
                                             href: "https://google.com/",
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                 name: "facebook",
                                                 size: "large"
@@ -3073,7 +3073,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             target: "_blank",
                                             href: "https://google.com/",
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                 name: "instagram",
                                                 size: "large"
@@ -3091,18 +3091,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflowX: "hidden"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid, {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 11,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/pin.png",
@@ -3111,7 +3111,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "Kariakoo, Dar es salaam."
                                                         ]
@@ -3121,9 +3121,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/tc2.png",
@@ -3132,7 +3132,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "+255756144060."
                                                         ]
@@ -3142,9 +3142,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/email.png",
@@ -3153,7 +3153,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "support@personalizer.co.tz"
                                                         ]
@@ -3165,16 +3165,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 5,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Follow Us"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "facebook",
                                                         size: "large"
@@ -3183,7 +3183,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "instagram",
                                                         size: "large"
@@ -3203,18 +3203,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflowX: "hidden"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid, {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/pin.png",
@@ -3223,7 +3223,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "Kariakoo, Dar es salaam."
                                                         ]
@@ -3233,9 +3233,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/tc2.png",
@@ -3244,7 +3244,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "+255756144060."
                                                         ]
@@ -3254,9 +3254,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/email.png",
@@ -3265,7 +3265,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "support@personalizer.co.tz"
                                                         ]
@@ -3277,16 +3277,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Follow Us"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "facebook",
                                                         size: "large"
@@ -3295,7 +3295,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "instagram",
                                                         size: "large"
@@ -3315,18 +3315,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflowX: "hidden"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid, {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/pin.png",
@@ -3335,7 +3335,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "Kariakoo, Dar es salaam."
                                                         ]
@@ -3345,9 +3345,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/tc2.png",
@@ -3356,7 +3356,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "+255756144060."
                                                         ]
@@ -3366,9 +3366,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/email.png",
@@ -3377,7 +3377,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "support@personalizer.co.tz"
                                                         ]
@@ -3389,16 +3389,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Follow Us"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "facebook",
                                                         size: "large"
@@ -3407,7 +3407,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "instagram",
                                                         size: "large"
@@ -3426,18 +3426,18 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                             style: {
                                 overflowX: "hidden"
                             },
-                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
+                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().bobo) || ""),
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid, {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/pin.png",
@@ -3446,7 +3446,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "Kariakoo, Dar es salaam."
                                                         ]
@@ -3456,9 +3456,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/tc2.png",
@@ -3467,7 +3467,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "+255756144060."
                                                         ]
@@ -3477,9 +3477,9 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                     style: {
                                                         paddingTop: "1%"
                                                     },
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().links) || ""),
                                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        className: "jsx-9933c6751ec74e2d",
+                                                        className: "jsx-f07d585b3cfb870b",
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                                 src: "../static/images/email.png",
@@ -3488,7 +3488,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                                 style: {
                                                                     marginRight: "10px"
                                                                 },
-                                                                className: "jsx-9933c6751ec74e2d"
+                                                                className: "jsx-f07d585b3cfb870b"
                                                             }),
                                                             "support@personalizer.co.tz"
                                                         ]
@@ -3500,16 +3500,16 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Grid.Column, {
                                         width: 8,
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
+                                            className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().kibe2) || ""),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: "jsx-9933c6751ec74e2d",
+                                                    className: "jsx-f07d585b3cfb870b",
                                                     children: "Follow Us"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "facebook",
                                                         size: "large"
@@ -3518,7 +3518,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     target: "_blank",
                                                     href: "https://google.com/",
-                                                    className: "jsx-9933c6751ec74e2d" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
+                                                    className: "jsx-f07d585b3cfb870b" + " " + ((_static_css_index_module_css__WEBPACK_IMPORTED_MODULE_12___default().lin) || ""),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__.Icon, {
                                                         name: "instagram",
                                                         size: "large"
@@ -3534,8 +3534,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_10___default()(null, {
                 ]
             }),
             react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_dist_shared_lib_styled_jsx__WEBPACK_IMPORTED_MODULE_1___default()), {
-                id: "9933c6751ec74e2d",
-                children: "html,body{width:100%;height:100%;overflow-x:hidden;margin:0px,padding:0px}"
+                id: "f07d585b3cfb870b",
+                children: "html,body{width:100%;height:100%;overflow-x:hidden;overflow-y:hidden,margin:0px,padding:0px}"
             })
         ]
     });
