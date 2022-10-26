@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <NextNProgress color="red" />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

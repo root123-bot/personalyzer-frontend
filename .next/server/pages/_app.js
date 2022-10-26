@@ -34,8 +34,7 @@ https://www.npmjs.com/package/nextjs-progressbar */ }function MyApp({ Component 
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {
                 ...pageProps
-            }),
-            ";"
+            })
         ]
     });
 };
