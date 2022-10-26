@@ -36,6 +36,7 @@ module.exports = {
 	"shop": "css_shop__Zd_kf",
 	"foo": "css_foo__p1vKF",
 	"amo": "css_amo__v8AQE",
+	"main": "css_main__2wEka",
 	"kibe": "css_kibe__F1k5W",
 	"kibe2": "css_kibe2__Dq15i",
 	"lin": "css_lin__G8wcf",
