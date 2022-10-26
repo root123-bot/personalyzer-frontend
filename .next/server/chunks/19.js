@@ -596,10 +596,6 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
         };
     }, []);
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        style: {
-            paddingBottom: 0,
-            marginBottom: 0
-        },
         onClick: filterToggleOff,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__.Container, {

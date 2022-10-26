@@ -651,7 +651,7 @@ export default (props) => {
   }, []);
 
   return (
-    <div style={{paddingBottom: 0, marginBottom: 0}} onClick={filterToggleOff}>
+    <div onClick={filterToggleOff}>
       <Container>
         <div className={styles.main}>
           <Head>
