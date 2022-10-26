@@ -122,7 +122,7 @@ export default (props) => {
         ? uploadData.append("name", jina)
         : uploadData.append("name", "431EFD#");
 
-        
+
       const response = await fetch(`${BACKEND_ORIGIN}/api/edit/`, {
         method: "POST",
         body: uploadData,
@@ -180,7 +180,7 @@ export default (props) => {
       passInp.current.value = "";
       oldPassInp.current.value = "";
       return;
-    } 
+    }
 
     if (password.trim().length > 6 && oldPassword.trim().length > 0) {
       const response = await fetch(
@@ -706,7 +706,7 @@ export default (props) => {
                         placeholder="Type and search..."
                         className={styles.search}
                         onChange={changeAttrs}
-                        // onChange= { (e) => setSearchTerm(e.target.value) }
+                      // onChange= { (e) => setSearchTerm(e.target.value) }
                       />
                       <img
                         src="/static/images/magnifying-glass.png"
@@ -780,7 +780,7 @@ export default (props) => {
                         placeholder="Type and search..."
                         className={styles.search}
                         onChange={changeAttrs}
-                        // onChange= { (e) => setSearchTerm(e.target.value) }
+                      // onChange= { (e) => setSearchTerm(e.target.value) }
                       />
                       <img
                         src="/static/images/magnifying-glass.png"
@@ -3215,6 +3215,15 @@ export default (props) => {
           </div>
         </MediaQuery>
       </footer>
+      <style jsx global>{`
+        html, body {
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+          margin: 0px,
+          padding: 0px;
+        }
+      `}</style>
     </div>
   );
 };
