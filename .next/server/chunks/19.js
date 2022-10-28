@@ -1283,7 +1283,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         children: "Edit Profile"
                                                                     })
@@ -1321,7 +1322,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         children: "Edit Profile"
                                                                     })
@@ -1359,7 +1361,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         children: "Edit Profile"
                                                                     })
@@ -1397,7 +1400,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         children: "Edit Profile"
                                                                     })
@@ -1435,7 +1439,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         children: "Edit Profile"
                                                                     })
@@ -1473,6 +1478,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
+                                                                            color: "grey",
                                                                             background: "white",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
@@ -1514,6 +1520,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1554,6 +1561,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1594,6 +1602,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1645,7 +1654,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -1684,7 +1694,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -1723,7 +1734,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -1762,7 +1774,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -1801,7 +1814,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -1841,6 +1855,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1882,6 +1897,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1923,6 +1939,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -1964,6 +1981,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -2016,7 +2034,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -2055,7 +2074,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -2094,7 +2114,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -2133,7 +2154,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -2172,7 +2194,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                         style: {
                                                                             display: "block",
                                                                             border: "2px solid grey",
-                                                                            background: "white"
+                                                                            background: "white",
+                                                                            color: "grey"
                                                                         },
                                                                         onClick: showChangeProfile,
                                                                         children: "Edit Profile"
@@ -2212,6 +2235,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -2253,6 +2277,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -2294,6 +2319,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },
@@ -2335,6 +2361,7 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                             display: "block",
                                                                             border: "2px solid grey",
                                                                             background: "white",
+                                                                            color: "grey",
                                                                             padding: "5%",
                                                                             whiteSpace: "nowrap"
                                                                         },

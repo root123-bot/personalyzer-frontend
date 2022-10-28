@@ -1428,6 +1428,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                             >
                               Edit Profile
@@ -1465,6 +1466,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                             >
                               Edit Profile
@@ -1503,6 +1505,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                             >
                               Edit Profile
@@ -1542,6 +1545,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                             >
                               Edit Profile
@@ -1581,6 +1585,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                             >
                               Edit Profile
@@ -1618,6 +1623,7 @@ export default (props) => {
                               style={{
                                 display: "block",
                                 border: "2px solid grey",
+                                color: "grey",
                                 background: "white",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
@@ -1660,6 +1666,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -1701,6 +1708,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -1742,6 +1750,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -1794,6 +1803,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                               onClick={showChangeProfile}
                             >
@@ -1834,6 +1844,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                               onClick={showChangeProfile}
                             >
@@ -1874,6 +1885,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                               onClick={showChangeProfile}
                             >
@@ -1914,6 +1926,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                               onClick={showChangeProfile}
                             >
@@ -1954,6 +1967,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey"
                               }}
                               onClick={showChangeProfile}
                             >
@@ -1993,6 +2007,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -2035,6 +2050,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -2077,6 +2093,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -2119,6 +2136,7 @@ export default (props) => {
                                 display: "block",
                                 border: "2px solid grey",
                                 background: "white",
+                                color: "grey",
                                 padding: "5%",
                                 whiteSpace: "nowrap",
                               }}
@@ -2170,6 +2188,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey"
                             }}
                             onClick={showChangeProfile}
                           >
@@ -2208,6 +2227,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey"
                             }}
                             onClick={showChangeProfile}
                           >
@@ -2247,6 +2267,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey"
                             }}
                             onClick={showChangeProfile}
                           >
@@ -2287,6 +2308,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey",
                             }}
                             onClick={showChangeProfile}
                           >
@@ -2327,6 +2349,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey"
                             }}
                             onClick={showChangeProfile}
                           >
@@ -2366,6 +2389,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey",
                               padding: "5%",
                               whiteSpace: "nowrap",
                             }}
@@ -2408,6 +2432,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey",
                               padding: "5%",
                               whiteSpace: "nowrap",
                             }}
@@ -2450,6 +2475,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey",
                               padding: "5%",
                               whiteSpace: "nowrap",
                             }}
@@ -2492,6 +2518,7 @@ export default (props) => {
                               display: "block",
                               border: "2px solid grey",
                               background: "white",
+                              color: "grey",
                               padding: "5%",
                               whiteSpace: "nowrap",
                             }}
