@@ -2506,8 +2506,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    paddingTop: "3%",
-                                                                    paddingBottom: "3%"
+                                                                    paddingTop: "1.5%",
+                                                                    paddingBottom: "1.5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2525,8 +2525,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    paddingTop: "3%",
-                                                                    paddingBottom: "3%"
+                                                                    paddingTop: "1.5%",
+                                                                    paddingBottom: "1.5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2544,8 +2544,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    paddingTop: "3%",
-                                                                    paddingBottom: "3%"
+                                                                    paddingTop: "1.5%",
+                                                                    paddingBottom: "1.5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2562,8 +2562,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    paddingTop: "3%",
-                                                                    paddingBottom: "3%"
+                                                                    paddingTop: "1.5%",
+                                                                    paddingBottom: "1.5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
