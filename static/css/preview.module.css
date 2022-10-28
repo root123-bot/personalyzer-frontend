@@ -199,11 +199,14 @@
         margin-left: 9px;
         margin-top: -9px;
         padding-top: 0px;
-        color: rgb(45, 186, 204);
+        color: rgb(34, 111, 114);
         /* border: 1px solid rgb(190, 255, 149); */
         /* background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .radioContainer {
@@ -413,11 +416,14 @@
         margin-left: 9px;
         margin-top: -9px;
         padding-top: 0px;
-        color: rgb(45, 186, 204);
+        color: rgb(34, 111, 114);
         /* border: 1px solid rgb(190, 255, 149);
         background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .radioContainer {
@@ -627,11 +633,14 @@
         margin-left: 9px;
         margin-top: -9px;
         padding-top: 0px;
-        color: rgb(45, 186, 204);
+        color: rgb(34, 111, 114);
         /* border: 1px solid rgb(190, 255, 149);
         background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .radioContainer {
