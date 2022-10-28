@@ -706,7 +706,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 maxWidth: 360,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 40,
+                                                                    cols: 32,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -719,7 +719,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 maxWidth: 380,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 39,
+                                                                    cols: 33,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -731,7 +731,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 minWidth: 381,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 40,
+                                                                    cols: 36,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -1037,7 +1037,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 maxWidth: 450,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 40,
+                                                                    cols: 36,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -1050,7 +1050,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 maxWidth: 500,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 50,
+                                                                    cols: 40,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -1063,7 +1063,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                 maxWidth: 576,
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                     row: 2,
-                                                                    cols: 56,
+                                                                    cols: 46,
                                                                     className: this.tarea,
                                                                     onChange: (e)=>this.setState({
                                                                             customValue: e.target.value
@@ -1369,7 +1369,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                         row: 2,
-                                                                        cols: 56,
+                                                                        cols: 46,
                                                                         className: this.tarea,
                                                                         onChange: (e)=>this.setState({
                                                                                 customValue: e.target.value
@@ -1494,7 +1494,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                         maxWidth: 800,
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                             row: 2,
-                                                                            cols: 45,
+                                                                            cols: 40,
                                                                             className: this.tarea,
                                                                             onChange: (e)=>this.setState({
                                                                                     customValue: e.target.value
@@ -1506,7 +1506,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                         minWidth: 801,
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                             row: 2,
-                                                                            cols: 55,
+                                                                            cols: 48,
                                                                             className: this.tarea,
                                                                             onChange: (e)=>this.setState({
                                                                                     customValue: e.target.value
@@ -1627,7 +1627,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                                 maxWidth: 800,
                                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                                     row: 2,
-                                                                                    cols: 45,
+                                                                                    cols: 35,
                                                                                     className: this.tarea,
                                                                                     onChange: (e)=>this.setState({
                                                                                             customValue: e.target.value
@@ -1639,7 +1639,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                                 minWidth: 801,
                                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                                     row: 2,
-                                                                                    cols: 45,
+                                                                                    cols: 40,
                                                                                     className: this.tarea,
                                                                                     onChange: (e)=>this.setState({
                                                                                             customValue: e.target.value
