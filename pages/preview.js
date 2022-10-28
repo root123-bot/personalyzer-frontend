@@ -635,7 +635,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={200} maxWidth={340}>
                             <textarea
                               row={2}
-                              cols={28}
+                              cols={30}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -646,7 +646,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={341} maxWidth={360}>
                             <textarea
                               row={2}
-                              cols={30}
+                              cols={40}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -657,7 +657,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={361} maxWidth={380}>
                             <textarea
                               row={2}
-                              cols={32}
+                              cols={39}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -669,7 +669,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={381}>
                             <textarea
                               row={2}
-                              cols={34}
+                              cols={40}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -917,7 +917,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={401} maxWidth={450}>
                             <textarea
                               row={2}
-                              cols={36}
+                              cols={40}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -928,7 +928,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={451} maxWidth={500}>
                             <textarea
                               row={2}
-                              cols={40}
+                              cols={50}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -940,7 +940,7 @@ class Preview extends Component {
                           <MediaQuery minWidth={501} maxWidth={576}>
                             <textarea
                               row={2}
-                              cols={45}
+                              cols={56}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -1200,7 +1200,7 @@ class Preview extends Component {
 
                             <textarea
                               row={2}
-                              cols={45}
+                              cols={56}
                               className={this.tarea}
                               onChange={(e) =>
                                 this.setState({ customValue: e.target.value })
@@ -1339,7 +1339,7 @@ class Preview extends Component {
                               <MediaQuery minWidth={700} maxWidth={800}>
                                 <textarea
                                   row={2}
-                                  cols={33}
+                                  cols={45}
                                   className={this.tarea}
                                   onChange={(e) =>
                                     this.setState({
@@ -1353,7 +1353,7 @@ class Preview extends Component {
                               <MediaQuery minWidth={801}>
                                 <textarea
                                   row={2}
-                                  cols={45}
+                                  cols={55}
                                   className={this.tarea}
                                   onChange={(e) =>
                                     this.setState({
@@ -1499,7 +1499,7 @@ class Preview extends Component {
                                   <MediaQuery minWidth={700} maxWidth={800}>
                                     <textarea
                                       row={2}
-                                      cols={33}
+                                      cols={45}
                                       className={this.tarea}
                                       onChange={(e) =>
                                         this.setState({
@@ -1513,7 +1513,7 @@ class Preview extends Component {
                                   <MediaQuery minWidth={801}>
                                     <textarea
                                       row={2}
-                                      cols={36}
+                                      cols={45}
                                       className={this.tarea}
                                       onChange={(e) =>
                                         this.setState({
