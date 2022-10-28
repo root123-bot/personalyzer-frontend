@@ -204,9 +204,7 @@
         /* background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        
     }
 
     .radioContainer {
@@ -219,6 +217,9 @@
         margin-left: 1%;
         font-weight: bold;
         color: grey;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .rad:hover, .label:hover {
@@ -421,9 +422,7 @@
         background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+       
     }
 
     .radioContainer {
@@ -436,6 +435,9 @@
         margin-left: 1%;
         font-weight: bold;
         color: grey;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .rad:hover, .label:hover {
@@ -638,9 +640,7 @@
         background: rgb(111, 220, 235); */
         padding: 4px;
         padding-bottom: 0px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        
     }
 
     .radioContainer {
@@ -653,6 +653,9 @@
         margin-left: 1%;
         font-weight: bold;
         color: grey;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .rad:hover, .label:hover {
