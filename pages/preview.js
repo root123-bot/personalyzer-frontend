@@ -580,7 +580,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "12px" }}
+                                style={{ fontSize: "12px", whiteSpace: 'nowrap' }}
                               >
                                 {this.state.secondPropsAttributeValue.length > 7
                                   ? this.state.secondPropsAttributeValue.substr(
@@ -862,7 +862,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "13px" }}
+                                style={{ fontSize: "13px", whiteSpace: 'nowrap' }}
                               >
                                 {this.state.secondPropsAttributeValue.length > 7
                                   ? this.state.secondPropsAttributeValue.substr(
@@ -1138,7 +1138,7 @@ class Preview extends Component {
                                 </span>
                                 <span
                                   className={styles.pValue}
-                                  style={{ fontSize: "14px" }}
+                                  style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
                                 >
                                   {this.state.secondPropsAttributeValue.length >
                                   15
@@ -1280,7 +1280,7 @@ class Preview extends Component {
                                   </span>
                                   <span
                                     className={styles.pValue}
-                                    style={{ fontSize: "14px" }}
+                                    style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
                                   >
                                     {this.state.secondPropsAttributeValue
                                       .length > 15
@@ -1353,7 +1353,7 @@ class Preview extends Component {
                               <MediaQuery minWidth={801}>
                                 <textarea
                                   row={2}
-                                  cols={50}
+                                  cols={45}
                                   className={this.tarea}
                                   onChange={(e) =>
                                     this.setState({
@@ -1437,7 +1437,7 @@ class Preview extends Component {
                                     </span>
                                     <span
                                       className={styles.pValue}
-                                      style={{ fontSize: "14px" }}
+                                      style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
                                     >
                                       {this.state.secondPropsAttributeValue
                                         .length > 18
