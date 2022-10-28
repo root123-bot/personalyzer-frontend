@@ -527,7 +527,7 @@ class Preview extends Component {
                                   this.props.data.map_property[0]
                                 )[0]
                               }
-                              style={{ fontSize: "12px" }}
+                              style={{ fontSize: "12px", whiteSpace: 'nowrap' }}
                               ref={this.initialProp}
                             >
                               {/* {Object.values(this.props.data.map_property[0])[0]} */}
@@ -811,7 +811,7 @@ class Preview extends Component {
                             </span>
                             <span
                               className={styles.pValue}
-                              style={{ fontSize: "13px" }}
+                              style={{ fontSize: "13px", whiteSpace: "nowrap" }}
                             >
                               {this.state.selectedProp.length > 12
                                 ? this.state.selectedProp.substr(0, 11) + ".."
@@ -1087,7 +1087,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "14px" }}
+                                style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
                               >
                                 {this.state.selectedProp > 18
                                   ? this.state.selectedProp.substr(0, 17) + ".."
@@ -1353,7 +1353,7 @@ class Preview extends Component {
                               <MediaQuery minWidth={801}>
                                 <textarea
                                   row={2}
-                                  cols={45}
+                                  cols={50}
                                   className={this.tarea}
                                   onChange={(e) =>
                                     this.setState({
