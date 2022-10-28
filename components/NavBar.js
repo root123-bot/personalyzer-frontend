@@ -2649,8 +2649,8 @@ export default (props) => {
                           fontWeight: "bold",
                           color: "grey",
                           background: 'white',
-                          borderTop: "2%",
-                          borderBottom: "2%"
+                          borderTop: "5%",
+                          borderBottom: "5%"
                         }}
                       >
                         Update Profile
@@ -2667,8 +2667,8 @@ export default (props) => {
                           fontWeight: "bold",
                           color: "grey",
                           background: 'white',
-                          borderTop: "2%",
-                          borderBottom: "2%"
+                          borderTop: "5%",
+                          borderBottom: "5%"
                         }}
                       >
                         Update Profile
@@ -2685,8 +2685,8 @@ export default (props) => {
                           fontWeight: "bold",
                           color: "grey",
                           background: 'white',
-                          borderTop: "2%",
-                          borderBottom: "2%"
+                          borderTop: "5%",
+                          borderBottom: "5%"
                         }}
                       >
                         Update Profile
@@ -2704,8 +2704,8 @@ export default (props) => {
                           fontWeight: "bold",
                           color: "grey",
                           background: 'white',
-                          borderTop: "2%",
-                          borderBottom: "2%"
+                          borderTop: "5%",
+                          borderBottom: "5%"
                         }}
                       >
                         Update Profile

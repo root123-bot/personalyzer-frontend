@@ -2506,8 +2506,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    borderTop: "2%",
-                                                                    borderBottom: "2%"
+                                                                    borderTop: "5%",
+                                                                    borderBottom: "5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2525,8 +2525,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    borderTop: "2%",
-                                                                    borderBottom: "2%"
+                                                                    borderTop: "5%",
+                                                                    borderBottom: "5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2544,8 +2544,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    borderTop: "2%",
-                                                                    borderBottom: "2%"
+                                                                    borderTop: "5%",
+                                                                    borderBottom: "5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2562,8 +2562,8 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     fontWeight: "bold",
                                                                     color: "grey",
                                                                     background: "white",
-                                                                    borderTop: "2%",
-                                                                    borderBottom: "2%"
+                                                                    borderTop: "5%",
+                                                                    borderBottom: "5%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
