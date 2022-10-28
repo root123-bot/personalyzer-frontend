@@ -527,7 +527,7 @@ class Preview extends Component {
                                   this.props.data.map_property[0]
                                 )[0]
                               }
-                              style={{ fontSize: "12px", whiteSpace: 'nowrap' }}
+                              style={{ fontSize: "12px" }}
                               ref={this.initialProp}
                             >
                               {/* {Object.values(this.props.data.map_property[0])[0]} */}
@@ -580,7 +580,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "12px", whiteSpace: 'nowrap' }}
+                                style={{ fontSize: "12px" }}
                               >
                                 {this.state.secondPropsAttributeValue.length > 7
                                   ? this.state.secondPropsAttributeValue.substr(
@@ -811,7 +811,7 @@ class Preview extends Component {
                             </span>
                             <span
                               className={styles.pValue}
-                              style={{ fontSize: "13px", whiteSpace: "nowrap" }}
+                              style={{ fontSize: "13px" }}
                             >
                               {this.state.selectedProp.length > 12
                                 ? this.state.selectedProp.substr(0, 11) + ".."
@@ -862,7 +862,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "13px", whiteSpace: 'nowrap' }}
+                                style={{ fontSize: "13px" }}
                               >
                                 {this.state.secondPropsAttributeValue.length > 7
                                   ? this.state.secondPropsAttributeValue.substr(
@@ -1087,7 +1087,7 @@ class Preview extends Component {
                               </span>
                               <span
                                 className={styles.pValue}
-                                style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
+                                style={{ fontSize: "14px" }}
                               >
                                 {this.state.selectedProp > 18
                                   ? this.state.selectedProp.substr(0, 17) + ".."
@@ -1138,7 +1138,7 @@ class Preview extends Component {
                                 </span>
                                 <span
                                   className={styles.pValue}
-                                  style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
+                                  style={{ fontSize: "14px" }}
                                 >
                                   {this.state.secondPropsAttributeValue.length >
                                   15
@@ -1280,7 +1280,7 @@ class Preview extends Component {
                                   </span>
                                   <span
                                     className={styles.pValue}
-                                    style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
+                                    style={{ fontSize: "14px" }}
                                   >
                                     {this.state.secondPropsAttributeValue
                                       .length > 15
@@ -1437,7 +1437,7 @@ class Preview extends Component {
                                     </span>
                                     <span
                                       className={styles.pValue}
-                                      style={{ fontSize: "14px", whiteSpace: 'nowrap' }}
+                                      style={{ fontSize: "14px" }}
                                     >
                                       {this.state.secondPropsAttributeValue
                                         .length > 18

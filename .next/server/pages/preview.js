@@ -593,8 +593,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                         className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                         name: Object.values(this.props.data.map_property[0])[0],
                                                                         style: {
-                                                                            fontSize: "12px",
-                                                                            whiteSpace: "nowrap"
+                                                                            fontSize: "12px"
                                                                         },
                                                                         ref: this.initialProp,
                                                                         children: this.state.selectedProp.length > 10 ? this.state.selectedProp.substr(0, 9) + ".." : this.state.selectedProp
@@ -643,8 +642,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                 style: {
-                                                                                    fontSize: "12px",
-                                                                                    whiteSpace: "nowrap"
+                                                                                    fontSize: "12px"
                                                                                 },
                                                                                 children: this.state.secondPropsAttributeValue.length > 7 ? this.state.secondPropsAttributeValue.substr(0, 6) + ".." : this.state.secondPropsAttributeValue
                                                                             })
@@ -940,8 +938,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                         style: {
-                                                                            fontSize: "13px",
-                                                                            whiteSpace: "nowrap"
+                                                                            fontSize: "13px"
                                                                         },
                                                                         children: this.state.selectedProp.length > 12 ? this.state.selectedProp.substr(0, 11) + ".." : this.state.selectedProp
                                                                     }),
@@ -989,8 +986,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                 style: {
-                                                                                    fontSize: "13px",
-                                                                                    whiteSpace: "nowrap"
+                                                                                    fontSize: "13px"
                                                                                 },
                                                                                 children: this.state.secondPropsAttributeValue.length > 7 ? this.state.secondPropsAttributeValue.substr(0, 6) + ".." : this.state.secondPropsAttributeValue
                                                                             })
@@ -1277,8 +1273,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                 style: {
-                                                                                    fontSize: "14px",
-                                                                                    whiteSpace: "nowrap"
+                                                                                    fontSize: "14px"
                                                                                 },
                                                                                 children: this.state.selectedProp > 18 ? this.state.selectedProp.substr(0, 17) + ".." : this.state.selectedProp
                                                                             }),
@@ -1326,8 +1321,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                         className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                         style: {
-                                                                                            fontSize: "14px",
-                                                                                            whiteSpace: "nowrap"
+                                                                                            fontSize: "14px"
                                                                                         },
                                                                                         children: this.state.secondPropsAttributeValue.length > 15 ? this.state.secondPropsAttributeValue.substr(0, 14) + ".." : this.state.secondPropsAttributeValue
                                                                                     })
@@ -1450,8 +1444,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                             className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                             style: {
-                                                                                                fontSize: "14px",
-                                                                                                whiteSpace: "nowrap"
+                                                                                                fontSize: "14px"
                                                                                             },
                                                                                             children: this.state.secondPropsAttributeValue.length > 15 ? this.state.secondPropsAttributeValue.substr(0, 14) + ".." : this.state.secondPropsAttributeValue
                                                                                         })
@@ -1584,8 +1577,7 @@ class Preview extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
                                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                         className: (_static_css_preview_module_css__WEBPACK_IMPORTED_MODULE_11___default().pValue),
                                                                                         style: {
-                                                                                            fontSize: "14px",
-                                                                                            whiteSpace: "nowrap"
+                                                                                            fontSize: "14px"
                                                                                         },
                                                                                         children: this.state.secondPropsAttributeValue.length > 18 ? this.state.secondPropsAttributeValue.substr(0, 17) + ".." : this.state.secondPropsAttributeValue
                                                                                     })
