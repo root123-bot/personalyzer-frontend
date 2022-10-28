@@ -218,8 +218,8 @@
         font-weight: bold;
         color: grey;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        /* overflow: hidden; */
+        /* text-overflow: ellipsis; */
     }
 
     .rad:hover, .label:hover {
@@ -436,8 +436,8 @@
         font-weight: bold;
         color: grey;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        /* overflow: hidden;
+        text-overflow: ellipsis; */
     }
 
     .rad:hover, .label:hover {
@@ -654,8 +654,8 @@
         font-weight: bold;
         color: grey;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        /* overflow: hidden;
+        text-overflow: ellipsis; */
     }
 
     .rad:hover, .label:hover {
