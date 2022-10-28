@@ -2504,7 +2504,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     width: "90%",
                                                                     border: "2px solid grey",
                                                                     fontWeight: "bold",
-                                                                    color: "grey"
+                                                                    color: "grey",
+                                                                    background: "white",
+                                                                    borderTop: "2%",
+                                                                    borderBottom: "2%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2520,7 +2523,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     width: "70%",
                                                                     border: "2px solid grey",
                                                                     fontWeight: "bold",
-                                                                    color: "grey"
+                                                                    color: "grey",
+                                                                    background: "white",
+                                                                    borderTop: "2%",
+                                                                    borderBottom: "2%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2536,7 +2542,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     width: "55%",
                                                                     border: "2px solid grey",
                                                                     fontWeight: "bold",
-                                                                    color: "grey"
+                                                                    color: "grey",
+                                                                    background: "white",
+                                                                    borderTop: "2%",
+                                                                    borderBottom: "2%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
@@ -2551,7 +2560,10 @@ const MediaQuery = next_dynamic__WEBPACK_IMPORTED_MODULE_9___default()(null, {
                                                                     width: "45%",
                                                                     border: "2px solid grey",
                                                                     fontWeight: "bold",
-                                                                    color: "grey"
+                                                                    color: "grey",
+                                                                    background: "white",
+                                                                    borderTop: "2%",
+                                                                    borderBottom: "2%"
                                                                 },
                                                                 children: "Update Profile"
                                                             })
